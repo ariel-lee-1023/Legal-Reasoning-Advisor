@@ -13,6 +13,16 @@ Because this is a prose skill rather than code, versioning is read as follows:
 
 ## [Unreleased]
 
+### Expert rebuild (2026-09-11)
+
+- Re-distilled all four supplied files with books-to-skill-refs; preserved the five established reference paths and added a dedicated Coke-on-Littleton module.
+- Verified that the Coke PDFs contain Institutes Volume II and Selected Writings Volume One; bounded coverage and distinguished editorial layers.
+- Rebuilt the reasoning core around evidence, operative facts, relational changes, institutional authority, alternative grounds, and remedies while retaining live argument diagnosis as the primary task.
+- Corrected blanket opposition to definitions, overbroad claims that precedent is optional, and automatic narrowest-holding or single-weak-premise defaults.
+- Expanded source methods and worked examples; added coverage, attribution, source hashes, editorial regressions, and validation records in `fidelity-ledger/`.
+- Replaced the optional digest record with a version 2.0 structure covering opinion alignment, holding candidates, and separate current-force verification; consumers of the earlier example fields must adapt.
+
+
 ### Consistency fixes (2026-09-09)
 
 - Made digest fields, relational mapping, and file output conditional on the task; aligned authority verification and README expectations with the expert core.

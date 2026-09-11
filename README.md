@@ -1,110 +1,117 @@
 # Legal Reasoning Advisor
 
-An [Agent Skill](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) for diagnosing and clarifying the logic of legal arguments.
+An expert Agent Skill for developing and testing legal arguments. It connects evidence and operative facts to legal relations, authoritative sources, institutional powers, and remedies, then identifies what supports the proposed result and what would change the assessment.
 
-It sorts briefs, judgments, student notes, law-review claims, exam answers, statutory puzzles, and client problems into their **load-bearing moves** — factual, classificatory, precedent-application, and policy — tests each move by its own standard, finds the joint the conclusion actually turns on, and states what follows, on what conditions, and what stays open.
+The central task is **live reasoning inside an argument**: improving a brief, assessing a judgment, resolving a statutory puzzle, explaining a relation, or building the strongest counterargument. A full case digest is an optional tool.
 
-## What it is for
+## What the advisor does
 
-Most legal-reasoning work is not archival. It is working *inside* an argument while it is still being made: a brief you are drafting or answering, a note whose joints are still being tested, a client problem where the question is which way the law cuts. That live, diagnostic work is the centre of this skill.
+- Separates allegations, evidence, operative events, classifications, precedent, and policy where their different burdens matter.
+- Distinguishes a permission from a claim against interference, a duty from a legal disability, and a triggering event from exercise of a power.
+- Tests statutory definitions and instrument effects alongside cases and legally relevant comparisons.
+- Assesses a precedent's proposition, scope, hierarchy, reasons, and available routes of departure without treating it as either mechanical or optional.
+- Preserves alternative sufficient grounds and issue-specific opinion alignments instead of forcing every argument to have one weak premise or every case one ratio.
+- Delivers a conclusion, a supported objection, and the next useful revision or verification step.
 
-Full precedent digestion — ratio/dicta separation, Hohfeldian relation-mapping, scope conditions, a citable record — is preserved here as **one tool among several**, invoked when a specific holding needs digesting, not run by reflex on every input.
+The four-move taxonomy—factual, interpretive/classificatory, precedent application, and policy/normative—is this repository's synthesis. It is a diagnostic aid, not a claimed framework from Coke, Hohfeld, or Duxbury.
 
-## The governing spirit
+## Examples
 
-The skill reasons the way the common law actually reasons, rather than imposing a top-down theory of rules:
+> “A promised not to transfer the asset, then transferred it. Does the breach mean the transfer was ineffective?”
 
-- **Classifications are earned from the materials.** A category is legitimate only to the extent courts have actually sorted comparable fact-settings into it. Do not define the category and deduce the answer.
-- **Materiality is a finding, not a definition.** Which facts matter is settled by what past courts treated as operative.
-- **Name what is open.** Where the categories or precedents run out, say so plainly instead of manufacturing closure.
-- **Law is a trained practice, not general reason** (Coke's "artificial reason").
+The advisor distinguishes a duty not to transfer from a power to transfer and identifies the legal premise needed to invalidate the transaction.
 
-## The four moves
+> “The statute defines this category expressly, but no case has applied it to this new device. Is the answer necessarily open?”
 
-| Move | What it asserts | Characteristic failure |
+It tests the definition and its scope; lack of a factual twin does not automatically prevent an established rule from applying.
+
+> “This judgment gives two independent grounds for dismissal. Which would my appeal have to answer?”
+
+It preserves both routes, distinguishes removal of a dismissal ground from success on the merits, and identifies the relevant procedural limits.
+
+> “Compare the majority and concurrences, extract the holding, and tell me what remains unresolved.”
+
+It maps propositions and agreement by issue, then uses the applicable aggregation rule if verified. It does not select the shortest opinion and label it controlling.
+
+Other useful requests include improving an argument paragraph, comparing candidate holdings, diagnosing a shift in the meaning of “right,” and explaining how a historical case reasons without presenting it as current law.
+
+## Sources and their actual coverage
+
+| Source | Supplied material | Contribution |
 |---|---|---|
-| Empirical / factual | What happened; what the record shows | A contested fact smuggled in as settled |
-| Definitional / classificatory | Which legal category something falls in; which relation holds | An imposed definition dressed as an earned category; a word doing several jobs |
-| Precedent application | That a decided case governs, on materially similar facts | Dictum treated as holding; wrong level of generality; an ignored distinction |
-| Policy / normative | What result the law should reach | Speculative consequences asserted as fact; policy hiding a gap |
+| Wesley Newcomb Hohfeld, *Some Fundamental Legal Conceptions as Applied in Judicial Reasoning*, 23 Yale Law Journal 16–59 (1913) | Markdown transcription of the 1913 article, with conversion damage | Legal/non-legal and operative/evidential distinctions; eight jural positions; options, transfers, powers, immunities |
+| Sir Edward Coke, *The First Part of the Institutes of the Laws of England; or, A Commentary upon Littleton*, eighteenth edition (1823), Legal Classics Library reprint (1985) | **Volume II**, beginning with Littleton's Book III; 790 PDF pages | Thirteen-chapter methodological coverage: title, conditions, release, confirmation, attornment, discontinuance, remitter, warranty |
+| Sir Edward Coke, *The Selected Writings and Speeches of Sir Edward Coke*, ed. Steve Sheppard (Liberty Fund, 2003) | **Volume One**; 620 PDF pages, selected Reports and prefaces | Selected passages on reporting, interpretation, discretion, legal competence, and the limits of authority |
+| Neil Duxbury, *The Nature and Authority of Precedent* (Cambridge University Press, 2008) | Markdown transcription; all five main chapters represented | Formation and authority of precedent, ratio tests and their limits, distinctions, overruling, self-binding, consequential and deontological arguments |
 
-A single sentence often fuses several. *"The defendant, as owner, had the right to exclude"* packs a classificatory move, a relational one, and an unstated factual predicate. The fusions are where arguments hide their work.
+The filenames overstate the Coke volumes available. The Institutes file is not both volumes; the Selected Writings file's collection-wide contents list does not mean the later volumes are included. The rebuild records those limits and separates Littleton, Coke, later editorial notes, and Sheppard's introductions.
 
-## Repository structure
+Source modules synthesize the material in original prose, preserving technical names and verified source locators. The Coke material is selected for reasoning method rather than exhaustive historical doctrine. Hohfeld's later installment is not silently imported. Coverage, exclusions, hashes, extraction quality, and evaluations are recorded in [fidelity-ledger](fidelity-ledger/source-and-coverage-ledger.md).
 
-```
+## Architecture and progressive loading
+
+```text
 legal-reasoning-advisor/
-├── SKILL.md                          # expert reasoning core + task-triggered loading
+├── SKILL.md                         # always-loaded reasoning core and task triggers
 ├── references/
-│   ├── move-taxonomy.md              # the diagnostic core; recognition cues, worked diagnoses
-│   ├── common-law-method.md          # the governing stance (Coke)
-│   ├── hohfeld-toolkit.md            # right / duty / privilege / power / immunity
-│   ├── precedent-method.md           # how precedent actually constrains (Duxbury)
-│   └── precedent-extraction.md       # full judgment-digestion pipeline (loaded when requested)
-├── AGENTS.md                         # default role and project working standards
+│   ├── move-taxonomy.md             # diagnostic synthesis
+│   ├── common-law-method.md         # Coke: Selected Writings, Volume One
+│   ├── reference-coke-institutes.md  # Coke on Littleton, Volume II
+│   ├── hohfeld-toolkit.md            # Hohfeld: 1913 article
+│   ├── precedent-method.md           # Duxbury: five chapters
+│   └── precedent-extraction.md       # optional digest procedure
+├── .agents/skills/legal-reasoning-advisor -> ../..
+├── AGENTS.md
+├── fidelity-ledger/                 # maintainer records, not domain-answer modules
 ├── README.md
 ├── CHANGELOG.md
+├── NOTICE.md
 ├── LICENSE
-├── NOTICE.md                         # source attribution and licensing scope
 └── .gitignore
 ```
 
-`SKILL.md` first establishes the advisor’s reasoning voice, then lists loading triggers; the files in `references/` are read on demand, only when a particular tangle calls for them.
+There is one canonical root skill and one canonical set of references. The discovery symlink resolves to the repository root. The books-to-skill-refs rebuild follows this repository's existing architecture and preserves all five original module paths; the additional Institutes module gives the fourth supplied source its own reference. It deliberately does not rename the existing modules into the metatool's default generated naming scheme.
+
+A consultation loads the core, then only the module or small combination relevant to the problem. Maintainer records are not included in the task-triggered loading table. Routine advice does not require a full case note, relation table, or bibliography.
 
 ## Installation
 
-### Claude Code (personal — available across all projects)
+Open the repository as an agent project; [AGENTS.md](AGENTS.md) directs domain questions to the root skill. For hosts using project skill discovery, the `.agents/skills/` alias exposes the same canonical files. Hosts must preserve directory symlinks or be directed to the root skill explicitly.
+
+For a personal skill installation, clone the **whole repository**, including `references/`, into the host's supported skill directory. Examples:
+
+```bash
+git clone https://github.com/ariel-lee-1023/legal-reasoning-advisor.git \
+  ~/.agents/skills/legal-reasoning-advisor
+```
 
 ```bash
 git clone https://github.com/ariel-lee-1023/legal-reasoning-advisor.git \
   ~/.claude/skills/legal-reasoning-advisor
 ```
 
-### Claude Code (project-scoped — committed with the repo that uses it)
+Choose a supported location for the host in use. Do not copy `SKILL.md` alone or create a second divergent runtime copy inside this repository. The advisor answers in the user's language even though the source instructions are English.
+
+## Scope and verification
+
+This is a reasoning aid grounded mainly in common-law materials, not a current law database or a substitute for jurisdiction-specific professional judgment. Present statutes, hierarchy, case status, procedural rules, remedies, and binding force require appropriate primary-source verification when they affect an actual conclusion. A closed-record analysis should identify its limits instead of silently supplying contemporary law from memory.
+
+Historical examples are attributed as historical examples. Constructed scenarios explicitly state their assumed legal premises. A legal concept can reveal a missing premise without establishing the opposite legal result. Non-common-law use requires attention to the local institution and source hierarchy; the corpus does not itself establish them.
+
+The optional JSON record is now version `2.0`; see [Precedent Extraction](references/precedent-extraction.md). It is an illustrative record structure, not a machine-enforced JSON Schema or a claim of backward-compatible fields.
+
+## Maintenance and validation
+
+The rebuild uses books-to-skill-refs extraction, targeted reading, source-level budgets, source-boundary discipline, coverage accounting, and instruction scanning. The ledger distinguishes structural checks from editorial assessment; it does not claim an independent model benchmark.
+
+From a checkout of Books-to-Skill-Refs, run its published-repository validator against this repository. Existing module names generate documented compatibility warnings. The supplementary checker validates **all four source modules**, the two synthesis modules' routing, relative links, discovery alias, source manifest, and JSON example:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/legal-reasoning-advisor.git \
-  .claude/skills/legal-reasoning-advisor
+python3 fidelity-ledger/validate.py --metatool /path/to/Books-to-Skill-Refs
 ```
 
-The path must be `<skills-dir>/legal-reasoning-advisor/SKILL.md` — one level, not nested deeper. Claude discovers the skill automatically from its frontmatter and loads the body when the description matches what you are asking about.
-
-### Claude.ai and the API
-
-Custom skills can also be used on Claude.ai and through the Claude API. Because upload steps and limits change, follow the current instructions in the [Agent Skills documentation](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) rather than a snapshot here.
-
-## Usage
-
-No command is needed; the skill triggers on the shape of the request. Representative prompts:
-
-- "Sort the logic of this brief and tell me which step it really rides on."
-- "Here's a passage from my note — where is it cheating?"
-- "Is the 'right' in this argument a claim-right or a privilege?"
-- "Does *X v. Y* actually hold what this paragraph says it holds?"
-- "Digest this judgment into a case note with scope conditions." *(invokes the extraction pipeline)*
-- "Build the strongest counter-argument from the same map."
-
-The deliverable is a clarified conclusion with enough reasoning to inspect it. A short question may take one paragraph; a complex brief may benefit from a sorted map. Work stays inline unless you request a file.
-
-## Sources
-
-The reference files synthesize, in the author's own words:
-
-- Sir Edward Coke, *The First Part of the Institutes of the Laws of England* and *The Reports*, in *The Selected Writings and Speeches of Sir Edward Coke*, ed. Steve Sheppard (Liberty Fund, 2003).
-- Wesley N. Hohfeld, "Some Fundamental Legal Conceptions as Applied in Judicial Reasoning," 23 Yale L.J. 16 (1913). *(Public domain; a small number of signature passages are quoted verbatim and cited by location.)*
-- Neil Duxbury, *The Nature and Authority of Precedent* (Cambridge University Press, 2008).
-
-## Disclaimer
-
-This is a reasoning aid, not legal advice, and it does not create a lawyer–client relationship. It gives the conclusion supported by the materials and makes the reasoning, conditions, and open questions visible. Verify every authority against the primary sources for your jurisdiction, and have a qualified lawyer confirm anything that matters.
-
-## Contributing
-
-Issues and pull requests are welcome. The most useful contributions are worked diagnoses that expose a failure mode the taxonomy does not yet catch, and corrections where a reference file overstates a contested proposition. Please keep additions consistent with the governing stance: classifications earned from materials, uncertainty marked rather than smoothed.
+See [validation.json](fidelity-ledger/validation.json), [evaluation.md](fidelity-ledger/evaluation.md), and the separate runtime scan reports for the recorded run. Preserve source authorship, scope, existing paths, and the distinction between runtime content and maintainer records when extending the advisor. Add a worked regression case whenever changing a substantive reasoning commitment.
 
 ## License
 
-MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
-
-This license covers the original text in this repository. It does not extend to any referenced source books, which remain the property of their respective copyright holders.
-
+MIT © 2026 Ariel Lee applies to the repository's original instructions, synthetic reference prose, and supporting code. It does not relicense source publications or editorial apparatus. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).

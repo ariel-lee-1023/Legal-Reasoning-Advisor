@@ -1,146 +1,114 @@
-# Move Taxonomy — the four kinds of step a legal argument is built from
+# Move Taxonomy — diagnosing the steps that support a legal conclusion
 
-This is the diagnostic core. Sorting a legal argument means tagging its load-bearing steps by type, because each type is established, contested, and defeated in a *different* way. Confuse the types and you cannot tell a strong argument from one that is cheating.
+**Status:** This repository's diagnostic synthesis, informed by Hohfeld's distinctions, Coke's legal practice, and Duxbury's treatment of precedent. The four-move taxonomy and procedures below are not a framework named by any of those authors. All scenarios in this module are constructed examples with stipulated premises, not statements of current law.
 
-**Contents**
-1. Why sort by move-type
-2. Empirical / factual moves
-3. Definitional / classificatory moves
-4. Precedent-application moves
-5. Policy / normative moves
-6. Fusion-spotting: when one sentence carries several moves
-7. Finding the load-bearing joint
-8. Worked diagnoses
+## Start with the result the argument needs
 
----
+Identify the proposition the speaker wants accepted and the consequence they want from it: a classification, a power to act, a judgment, damages, an injunction, or a change in law. A defensible proposition at one level may be insufficient for the next. A breach does not by itself establish every remedy; an entitlement does not establish that this court may grant the requested order.
 
-## 1. Why sort by move-type
+For an actual dispute, establish the jurisdiction, relevant time, procedural posture, and source completeness to the extent they change the answer. Do useful conditional analysis with the available material. Ask for missing information when it changes the result or the next step, not simply to fill a template.
 
-An argument's conclusion is only as good as its weakest load-bearing step, and steps of different types have different weak spots. A factual step is attacked with evidence; a classificatory step with argument about the concept and the cases; a precedent step by showing the case does not hold what is claimed or is distinguishable; a policy step by contesting the consequences or the values. If you treat every step as the same kind of thing, you will either over-trust it (accept a smuggled classification as if it were a fact) or attack it in the wrong register (throw evidence at a definitional dispute). The point of tagging is to interrogate each step *by its own standard* and to locate the one step the conclusion actually rides on.
+## Four moves, with their different warrants
 
----
+| Move | What it asserts | Support required | Diagnostic failure |
+|---|---|---|---|
+| Factual / empirical | An event occurred or a factual predicate holds | Evidence, findings or permitted assumptions, assessed under the applicable procedural rules | Allegation treated as finding; proof of one event substituted for another |
+| Interpretive / classificatory | A source means this, an event meets a legal condition, or a relation exists | Operative text, legal usage, context, applicable interpretive doctrine, relevant cases and justified distinctions | Dictionary meaning substitutes for legal meaning; permission becomes protection; label supplies its own consequence |
+| Precedent application | A prior decision controls or supports the proposition | Identified proposition, material comparison, court and hierarchy, applicable treatment and scope | Broad sentence treated as holding; factual twin demanded unnecessarily; distinction conceals repudiation |
+| Policy / normative | A result should be preferred for a value or consequence | Stated value, causal basis, tradeoff and institutional authority to use the consideration | Prediction presented as proven fact; desirable result treated as legally authorized |
 
-## 2. Empirical / factual moves
+The taxonomy diagnoses the kind of support needed, not a mandatory sequence. Legal reasoning can move between these registers legitimately. Policy can be embedded in an established legal standard or interpretation; it is not confined to situations where all authorities have run out. Explain how it bears on the governing source instead of rejecting it merely for being normative.
 
-**What it asserts:** something about the world — what happened, who did what, what a document says, what the market did, what caused what, what the record establishes.
+Two checks cut across all four moves: **who has authority to do what**, and **what remedy or procedural consequence follows**. They are not extra labels to attach to every sentence. Use them to stop a sound argument about substantive conduct from silently becoming an unsupported argument about invalidity, jurisdiction, or relief.
 
-**Recognition cues:** narrative of events; "the evidence shows"; findings of fact; causal verbs; characterizations of the record ("the parties clearly intended"); numbers, dates, sequences; anything a witness could in principle testify to or a document could establish.
+## Make the dependency visible
 
-**Standard of contest:** evidence and the applicable standard of proof (balance of probabilities, beyond reasonable doubt, substantial evidence on review, etc.); admissibility; who bears the burden; whether an appellate posture forecloses re-finding the fact.
+Build only as much of this chain as the task needs:
 
-**Characteristic failures:**
-- **A contested fact smuggled in as settled.** The most common cheat in legal writing: an argument's whole force depends on a factual predicate ("the defendant knew"), stated as though established when it is exactly what is in dispute.
-- **Characterization masquerading as observation.** "The parties intended a partnership" is often a legal conclusion wearing factual clothes.
-- **Procedural posture ignored.** On appeal from summary judgment the facts are taken in the light most favorable to the non-movant; a "factual" claim contrary to that posture is not available.
+**Evidence → operative fact → applicable source and interpretation → legal relation or classification → permitted institutional action → remedy.**
 
-**Diagnostic questions:** Is this predicate established or assumed? By what evidence, at what standard, with whom bearing the burden? Does the posture let us treat it as found? If it fell, would the conclusion survive?
+Specify the warrant at the contested transition. Some nodes are stipulated, some found, some legally contestable. Mark them accordingly. A citation is not a warrant until its proposition and applicability have been identified.
 
----
+If the conclusion rests on A **and** B, disproving either may defeat that route. If it rests independently on A **or** B, attacking only A does not defeat the conclusion. Preserve alternative sufficient grounds and independent claims. There need not be one decisive weakness, and an argument may have no material weakness on the supplied premises.
 
-## 3. Definitional / classificatory moves
+## Factual diagnosis
 
-**What it asserts:** that some thing, act, relationship, or state of affairs falls (or does not fall) into a legal category — lease vs. licence, fixture vs. chattel, employee vs. independent contractor, offer vs. invitation to treat, condition vs. warranty, possession vs. custody, a **right** vs. a **privilege**. Classification is where most legal argument actually happens, and where most of it hides.
+Distinguish what a party alleges, what a document records, what a court assumes for a particular motion, what it finds, and what is inferred. An assumed factual premise for a dismissal motion is not a finding after trial. “The record proves” requires a source and the relevant standard; procedural burdens and review standards are jurisdiction-specific.
 
-**Recognition cues:** "is properly regarded as"; "constitutes"; "amounts to"; "in substance this is a…"; any place where a label carries a legal consequence; any relation-word — *right, duty, property, power, interest, title, possession, ownership, liberty, immunity* — that triggers a downstream inference.
+Use Hohfeld's [operative/evidential distinction](hohfeld-toolkit.md): an authenticated paper today may support the occurrence of a legally operative delivery months ago without proving it. A negative condition such as absence of revocation needs attention, but its conceptual role does not itself allocate the burden of proof.
 
-**Standard of contest — two prongs:**
-1. **Is the category earned from the materials?** (Common-law method — see `common-law-method.md`.) A classification is legitimate to the extent courts have actually sorted comparable fact-settings into it. The test is not "does the definition fit?" but "how have courts drawn — and refused to draw — this line in cases like this one?" An imposed definition from which the answer is deduced is the signature move of a *theory of rules*, which the common law does not run on.
-2. **Which features are being treated as material — and did the cases treat them so?** Classification always turns on selecting which facts count. An argument that quietly picks the features that produce its preferred label, and ignores the features prior courts weighted, is not classifying; it is concluding.
+Counterfactual: grant the disputed fact temporarily. If the result still does not follow, more evidence of that fact will not repair the legal gap. Conversely, if the rule is clear and only an operative event is uncertain, do not manufacture a doctrinal dispute.
 
-**Relation-words need a second check (Hohfeld — see `hohfeld-toolkit.md`):** when the label is a relation-word, ask whether it is doing *one* job or several. "Property" can mean the physical thing or the bundle of legal relations over it; "right" can mean a claim-right (correlative: duty), a privilege/liberty (correlative: no-right), a power (correlative: liability), or an immunity (correlative: disability). A single argument that slides between these senses can look valid while being equivocal.
+## Interpretation and classification
 
-**Characteristic failures:**
-- **Imposed definition dressed as an earned category.** Deducing the result from a dictionary or a rule-statement rather than from how the cases sorted the facts.
-- **Material-fact gerrymandering.** Selecting the features that yield the wanted label.
-- **Equivocation on a relation-word.** The word shifts sense across the argument.
-- **Category applied past its earned reach.** Extending "material breach" or "occupier" to a fact-setting no case has actually placed there, without flagging that the reach is novel.
+Locate the source that gives the category legal work. An enacted definition may be controlling; an instrument may supply an operative condition; cases may fix or clarify its reach. Definitions and deduction are useful when their premises and authority are sound. The error is substituting an unsupported label for those premises.
 
-**Diagnostic questions:** Is this label earned from cases, or defined into existence? Which facts is it treating as material, and did the cases? Is a relation-word doing double duty? Is the fact-setting one the category actually reaches, or is this an extension that should be flagged as open?
+Compare materially relevant settings, including counterexamples. Explain why a difference matters to the legal rationale or text. A new device, person, or fact pattern may fall under an existing rule without being a discretionary extension of law. Identify novelty in the legally relevant dimension rather than in surface details.
 
----
+For a statute, use the applicable interpretive law and examine text, related provisions, scope, exceptions, and remedial structure. [Coke's Reports](common-law-method.md) supply whole-text and mischief-based examples; they do not establish a universal priority between present interpretive approaches. An enacted definition cannot be dismissed because it lacks a factual twin in case law.
 
-## 4. Precedent-application moves
+For a relation, fix holder, counterpart, conduct/change, time, and condition. Determine whether the argument moves from privilege to claim, duty to disability, liability to existing duty, or trigger to completed legal change. Hohfeld can expose that missing step without proving which substantive rule should supply it.
 
-**What it asserts:** that a prior decision governs (or supports, or forecloses) the present question, because the present facts are materially similar and the earlier court held what is claimed.
+## Precedent diagnosis
 
-**Recognition cues:** case citations offered as authority; "it is settled that"; "the court in X held"; "on all fours with"; "indistinguishable from"; "we are bound by."
+Use [Duxbury's method](precedent-method.md) when a prior decision is doing substantive work. Identify the proposed proposition, its relationship to facts and disposition, and its force for this court. Compare competing formulations only where their difference changes the assessment.
 
-**Standard of contest (full treatment in `precedent-method.md`, from Duxbury):**
-- **Ratio vs. dictum.** Only the *reason for the decision*, tied to the material facts and necessary to the disposition, binds. A "saying by the way" does not — though weighty dicta can carry heavy persuasive force, so do not dismiss dicta as worthless. The ratio/dictum line is genuinely contestable; there is no reliable mechanical test for it. Treat a clean split as itself a finding to defend, not a given.
-- **Material similarity.** Precedent binds on *materially identical facts*. Whether this case's facts are materially like the cited case's is a **judgment about which differences matter**, not a lookup — and it is usually the real battleground.
-- **Level of generality.** The same case can be read to hold something narrow (tied tightly to its facts) or something broad. Matching at an illegitimately broad level is how a precedent gets stretched to cover what it never decided.
-- **Distinguishing.** A later court respects a precedent yet declines to follow it by identifying a material factual difference. If a plausible distinction is available and the argument ignores it, the precedent step is weaker than it looks.
-- **Hierarchy and jurisdiction.** No binding force without a court whose decisions bind this one; otherwise the case is persuasive, not controlling.
+Separate non-application for material difference from authorized departure and overruling. A powerful objection to an earlier decision's merits may support an appeal or reform argument while being unavailable as a reason for this court to refuse to apply it. If the court is not specified, identify the competing institutional possibilities without assigning binding force.
 
-**Characteristic failures:** treating dictum as holding; matching at the wrong level of generality; asserting material similarity without defending which differences are immaterial; ignoring an available distinction; claiming binding force across a hierarchy or jurisdiction gap.
+Where several opinions exist, map propositions to judges and issues. An outcome majority is not automatically a reasons majority; “narrowest” is not automatically controlling. Preserve alternative sufficient grounds and unresolved alignments.
 
-**Diagnostic questions:** Does the case actually *hold* this, tied to its material facts and disposition? Are these facts materially like those — and which differences is the argument silently deciding are immaterial? At what level of generality is it being read, and is that level earned? Is a distinction available? Does the deciding court bind this one?
+## Policy and institutional choice
 
----
+Identify whose value is at stake, the causal mechanism linking the proposed rule to the predicted outcome, evidence for that mechanism, and the strongest cost or counterexample. A floodgates assertion needs more than the word floodgates; an appeal to equality needs a defended account of relevant likeness and treatment.
 
-## 5. Policy / normative moves
+Distinguish explaining why an established doctrine takes its form, interpreting an open standard, choosing between permitted applications, proposing an extension, and urging legal reform. The same consideration can legitimately have different weight in these tasks. State which is being done.
 
-**What it asserts:** that the law should reach a given result because of its consequences, or because a principle or value requires it, or because of which institution is competent to decide.
+Investigate competence: a court's power to distinguish or overrule, an official's statutory grant, or an institution's authority to change its practice. Desirability does not cure a missing source of power. [Coke on Littleton](reference-coke-institutes.md) also shows why powers, triggers, and remedies must be located within a sequence.
 
-**Recognition cues:** "floodgates"; "chilling effect"; "certainty and predictability"; "it would be unworkable"; "sound policy requires"; "the legislature, not the court, should"; appeals to fairness, efficiency, autonomy, deterrence.
+## Worked diagnoses
 
-**Standard of contest:** are the asserted consequences established or merely predicted? on what evidence? whose values are being invoked, and are they the law's or the arguer's? is this a question the court is institutionally suited to answer, or one for the legislature?
+### A. Effective but wrongful conveyance
 
-**Characteristic failures:**
-- **Speculative consequence stated as fact.** "This will open the floodgates" offered without any basis.
-- **Policy doing another move's job.** Reaching for consequences to decide a question that the facts, the classification, or the precedents already settle — or *should* settle if honestly analyzed.
-- **Policy hiding a gap.** Sometimes policy is doing legitimate work precisely because the materials have run out (see below). That is proper — but it should be *named* as such, not disguised as an application of settled law.
+**Input:** “A promised B not to transfer the asset to C. A transferred it. Therefore C acquired nothing.”
 
-**Diagnostic questions:** Is the consequence established or speculative? Whose values? Is the court the right body to weigh this? Is policy here filling a genuine gap in the materials, or substituting for analysis the other three moves should carry?
+**Stipulated law for this example:** A retained a legal power to transfer despite the promise; an otherwise qualifying transfer occurred.
 
----
+**Diagnosis:** The promise supports B's claim and A's duty. The stipulated transfer power supports C's acquisition. Breach of the duty does not imply lack of power. The argument needs an additional invalidity rule to defeat C's acquisition. On the stipulated facts it fails, even though B may have a claim for breach; the remedy for that claim remains a separate question. Read Hohfeld, not a complete case-digest schema.
 
-## 6. Fusion-spotting: when one sentence carries several moves
+### B. An enacted definition reaches a new device
 
-Legal prose compresses. A single clause routinely fuses two or three moves, and the compression is where the argument's real work — and its cheating — happens. Unbundle fused sentences before interrogating them.
+**Input:** “The Act defines a vehicle to include any powered device used to carry a person. This new device qualifies, but no court has yet ruled on it, so the legal category is open.”
 
-- *"As owner, the defendant had the right to exclude the plaintiff."*
-  - **Factual:** the defendant is the owner (established? or the very thing in dispute?).
-  - **Classificatory / relational:** "owner" is an earned category; "right to exclude" — is it a claim-**right** (correlative duty in the plaintiff) or a **privilege** (correlative no-right)? The consequence differs.
-- *"Since the contract was clearly frustrated, the parties were discharged."*
-  - **Classificatory:** "frustrated" is a legal category earned from a line of cases, not a plain-fact description; "clearly" is doing suppressive work.
-  - **Precedent:** frustration doctrine is a body of decided cases; does this fact-setting fall where they placed the line?
-- *"Allowing recovery here would flood the courts, so no duty of care arises."*
-  - **Policy:** the floodgates consequence (established?).
-  - **Classificatory:** "duty of care" is the category the policy is being used to deny — is the denial earned from the duty cases, or is policy substituting for them?
+**Stipulated setting:** The definition applies to the relevant provision; the device is powered and carries a person; no pertinent exception or conflicting authority is supplied.
 
-Rule of thumb: **wherever a sentence produces a legal consequence in a single breath, at least one move is buried in it.**
+**Diagnosis:** The absence of a factual twin is insufficient to create uncertainty. The enacted definition supplies an interpretive/classificatory warrant. A real argument may concern the definition's scope, an exception, or the facts of use. Identify such a dispute if present; do not invent one. On these premises the category applies.
 
----
+### C. Two independent reasons
 
-## 7. Finding the load-bearing joint
+**Input:** “The court dismissed because the claim was late and because no duty was owed. I proved the claim timely, so the plaintiff must win.”
 
-After tagging, ask: *which single move, if it failed, would collapse the conclusion?* That joint is where analysis, cross-examination, or a counter-argument should aim. Most arguments have exactly one true joint and a lot of scaffolding around it; naming the joint is the single most useful thing this skill does. A strong counter-argument is usually just: attack the joint in its own register (evidence at a factual joint; a distinction at a precedent joint; the earned-category test at a classificatory joint; the consequence or the value at a policy joint).
+**Diagnosis:** Timeliness attacks one route; the independent no-duty ground remains. Map the alternatives before identifying a decisive objection. Also, removal of both dismissal grounds might allow litigation to proceed rather than compel ultimate judgment for the plaintiff. The requested consequence exceeds what the objection establishes.
 
----
+### D. “The precedent is unjust”
 
-## 8. Worked diagnoses
+**Input:** “Duxbury calls precedent defeasible. Our trial judge should ignore the superior court's rule because its consequences are unfair.”
 
-### A. Practice — a short brief passage
-> "The clause is a penalty and therefore unenforceable. It requires payment of £50,000 on any breach, which is plainly disproportionate to any loss, and the courts will not enforce a sum that is extravagant compared with the greatest conceivable loss."
+**Diagnosis:** Separate the critique of the rule from the trial court's authority. Verify governing hierarchy and any recognized exception. If the rule controls and no exception applies, the appropriate argument may be preservation for appeal or reform, not trial-level overruling. Philosophical defeasibility supplies no jurisdiction-specific permission.
 
-- **Map.** Conclusion: the clause is unenforceable. Support: (i) it pays £50k on any breach [factual/textual]; (ii) £50k is "plainly disproportionate" [fused: factual magnitude + classificatory "penalty"]; (iii) "courts will not enforce…extravagant" sums [precedent — the penalty line].
-- **Interrogate.** (i) is a reading of the clause — check the text. (ii) fuses a factual claim (the likely loss) with the classificatory conclusion (penalty); "plainly" suppresses the question of *whose* loss and measured how. The classificatory test is earned from the penalty/liquidated-damages cases — and the modern line asks about a *legitimate interest* in performance, not only proportionality to loss, so the argument may be matching an older precedent at the wrong level. (iii) states the doctrine but at a generality the current cases may not support.
-- **Joint.** The classificatory step (ii): is "penalty" earned here, on the cases' current test? If the clause protects a legitimate performance interest, the label fails and the conclusion collapses.
-- **Conclusion.** The argument establishes unenforceability *only if* the £50k is not a genuine protection of a legitimate interest — a classificatory question the passage assumes rather than argues. Open on the present record.
+### E. The same paper, different legal function
 
-### B. Scholarship — a law-review claim
-> "Because privacy is a property right, its holder can exclude all others, and so any unconsented data collection is a trespass."
+**Input:** “This signed instrument proves the option was exercised before it expired.”
 
-- **Map.** Conclusion: unconsented data collection is a trespass. Support: (i) privacy *is* a property right [classificatory/relational]; (ii) a property right entails the power to exclude all others [relational inference]; (iii) therefore collection without consent = trespass [precedent + classificatory].
-- **Interrogate (Hohfeld).** "Property right" and "exclude all others" slide across senses. Even if privacy involves some in-rem claim-**right** (correlative: a duty in all others not to do X), it does not follow that the correlative duty is "do not collect"; the content of the duty is exactly what is unspecified. And "trespass" is a category earned from its own cases, not deducible from the word "property." The argument is **equivocation on a relation-word** plus **imposed definition dressed as earned category**.
-- **Joint.** Step (i)–(ii): the relational inference. It treats "property right" as a single thing carrying a fixed correlative, when the correlative and its content are precisely what must be shown.
-- **Conclusion.** The claim does not follow as stated; it is valid only if one independently establishes a duty whose content is "do not collect without consent," which the property label does not supply. This is where the materials run out — a genuinely open, and contested, extension.
+**Diagnosis:** Present inspection establishes evidence of a document. Exercise may require an earlier legally effective act with additional conditions. Identify the operative event under the option and applicable law; then test evidence of its timing and completion. If signature alone is stipulated to suffice, accept that result; if delivery is required and unproved, the paper alone leaves the gap.
 
-### C. Client problem — which way does the law cut
-> "My neighbour has used the strip along my fence as a driveway for fifteen years. Do I still own it?"
+### F. Public benefit and coercive power
 
-- **Frame.** The user wants to know what follows. Object: a fact pattern, not a text.
-- **Map & interrogate.** The answer turns on a **classificatory** question (does fifteen years of this use amount to adverse possession / a prescriptive easement, in this jurisdiction?), which rests on **factual** predicates (exclusivity, continuity, whether use was permitted or "as of right," the limitation period) and on **precedent** (how courts sorted comparable use-patterns). Note the fork: adverse possession (which could extinguish title) and an easement (which would not) are different categories with different facts material to each.
-- **Joint & openness.** The load-bearing joint is factual-into-classificatory: was the use *as of right* (no permission), exclusive, and continuous for the statutory period? That is unknown on the facts given.
-- **Conclusion.** State it honestly: ownership is not automatically lost by use; whether it is affected depends on facts not yet supplied (permission, exclusivity, the exact period and jurisdiction) and on which category (adverse possession vs. easement) the facts fit. Name what to establish next rather than guessing a result. *(Not legal advice; a lawyer in the jurisdiction should confirm.)*
+**Input:** “The board's plan will prevent flooding, so its repair power authorizes taking land for a new channel.”
+
+**Diagnosis:** Even accepting the predicted benefit, the act described may exceed the granted repair function and require a separate acquisition power or procedure. Compare the authorizing text, acts, persons affected, and remedies. Coke's Isle of Ely illustrates the reasoning problem; it does not decide a present board's authority.
+
+## Finish with a usable judgment
+
+Give the best-supported conclusion, the premise or alternative route that controls it, and the next fact, source, or revision that would change the assessment. Offer the strongest supported challenge, not a contrived opposing view. Separate failure of this argument from proof that the opposite conclusion is true.
+
+A repaired sentence should expose the condition it previously hid: “If the notice met the Act's requirements and the board held the specified acquisition power, the order could take effect; flood prevention alone establishes neither premise.” Where the necessary premises are established, state the result without gratuitous hedging.

@@ -1,0 +1,86 @@
+{
+  "build_date": "2026-09-11",
+  "base_commit": "bb26e9e",
+  "method": "books-to-skill-refs; existing-repository adaptation",
+  "token_method": "script-density (bookrefs.tokens); not word-split",
+  "source_count": 4,
+  "extraction_failures": [],
+  "sources": [
+    {
+      "filename": "Some-Fundamental-Legal-Conceptions-as-Applied-in-Judicial-Reasoning.md",
+      "sha256": "764d81c447ca686b1df621ad4d019fb47ceeaa0b29b81c5e3882919b6428e8e9",
+      "bytes": 124014,
+      "format": "md",
+      "extraction_pages": 68,
+      "page_count_kind": "extractor prose estimate; not bibliographic pagination",
+      "source_tokens_estimated": 30522,
+      "automated_chapters": 1,
+      "verified_structure_units": 3,
+      "depth": "study",
+      "type": "text",
+      "coverage": "1913 article, journal pages 16–59; later installment excluded",
+      "runtime_reference": "references/hohfeld-toolkit.md",
+      "corpus_span": {
+        "start_line": 4,
+        "end_line": 2198
+      }
+    },
+    {
+      "filename": "The First Part of the Institutes of the Law of England (2 Volumes) (Unknown).pdf",
+      "sha256": "5efa19d5f8e75bed82b4962f04ae826f9cc847a62a7ce9891329aaf36f3829e5",
+      "bytes": 61313392,
+      "format": "pdf",
+      "extraction_pages": 790,
+      "page_count_kind": "physical PDF pages",
+      "source_tokens_estimated": 666590,
+      "automated_chapters": 26,
+      "verified_structure_units": 13,
+      "depth": "study",
+      "type": "text",
+      "coverage": "Volume II, Book III, 13 chapters; Volume I absent",
+      "runtime_reference": "references/reference-coke-institutes.md",
+      "corpus_span": {
+        "start_line": 2202,
+        "end_line": 65006
+      }
+    },
+    {
+      "filename": "The selected writings and speeches of Sir Edward Coke (Coke, Edward, Sir, 1552-1634, Sheppard etc.).pdf",
+      "sha256": "4a4d38677bf194d7eb7ba66ae00037db58590c6cf9db8f990ae8157f77ffac1d",
+      "bytes": 33191040,
+      "format": "pdf",
+      "extraction_pages": 620,
+      "page_count_kind": "physical PDF pages",
+      "source_tokens_estimated": 370429,
+      "automated_chapters": 30,
+      "verified_structure_units": 13,
+      "depth": "study",
+      "type": "text",
+      "coverage": "Volume One, selected Reports and prefaces; later volumes absent",
+      "runtime_reference": "references/common-law-method.md",
+      "corpus_span": {
+        "start_line": 65010,
+        "end_line": 90573
+      }
+    },
+    {
+      "filename": "Nature-and-authority-precedent-Neil-Duxbury.md",
+      "sha256": "d028ad8a0ad1c4729f81a420b2ab060e92b27c0e01563725539b7fea461d58c3",
+      "bytes": 574616,
+      "format": "md",
+      "extraction_pages": 315,
+      "page_count_kind": "extractor prose estimate; not bibliographic pagination",
+      "source_tokens_estimated": 141587,
+      "automated_chapters": 2,
+      "verified_structure_units": 5,
+      "depth": "study",
+      "type": "text",
+      "coverage": "Five main chapters, pp. 1–183; index not distilled",
+      "runtime_reference": "references/precedent-method.md",
+      "corpus_span": {
+        "start_line": 90577,
+        "end_line": 92894
+      }
+    }
+  ]
+}

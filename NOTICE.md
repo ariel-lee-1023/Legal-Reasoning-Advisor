@@ -1,27 +1,11 @@
-# NOTICE
+# Attribution and rights
 
-## Originality
+This repository contains original skill instructions, synthetic reference prose, diagnostic examples, and maintainer records. It preserves source terminology and identifies works and locators for verification; raw books and source transcriptions are not distributed here.
 
-This repository contains original text authored by the contributor.
-It reproduces no substantial portion of any copyrighted source work.
+Sources are Hohfeld's 1913 Yale Law Journal article; Coke on Littleton, Volume II of the eighteenth edition (1823), in the Legal Classics Library reprint (1985); Volume One of Sheppard's *Selected Writings and Speeches of Sir Edward Coke* (Liberty Fund, 2003); and Duxbury's *The Nature and Authority of Precedent* (Cambridge University Press, 2008).
 
-## Nature of Reference Material
+The repository's MIT license covers its original contributions. It does not grant rights in the underlying publications, editions, translations, scans, or editorial apparatus. Historical primary texts and later editorial material may have different rights status. Source citation does not purport to license either.
 
-Source works are named for two purposes only: attribution and verification.
-What is distilled here is **structure** — frameworks, decision rules, and
-named terminology — not expression. No prose, sentences, or expressive
-language from source works has been reproduced.
-
-Framework names and named terminology are preserved exactly as they appear
-in the originals. Paraphrasing them would break traceability to the source
-and defeat the purpose of attribution.
-
-## Rights
-
-Source works referenced in this repository remain the exclusive property
-of their respective rights holders. No license or right in those works is
-granted or implied by their citation here.
-
-## Contributor
+Authorial terminology and case names are retained for precision. Historical examples are reconstructed in original prose; constructed applications and cross-source methods are identified as repository synthesis. The prior version's verbatim “signature passages” have been removed from the runtime references in this rebuild.
 
 Contributed by [@ariel-lee-1023](https://github.com/ariel-lee-1023).

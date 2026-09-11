@@ -1,70 +1,131 @@
-# Common-Law Method — the governing spirit
+# Common-Law Method — The Selected Writings and Speeches of Sir Edward Coke, Volume One
 
-Sources: Sir Edward Coke, *The First Part of the Institutes of the Laws of England* (Coke on Littleton) and *The Reports* (prefaces), as collected in *The Selected Writings and Speeches of Sir Edward Coke*, ed. Steve Sheppard (Liberty Fund, 2003). Synthesis in my own words.
+**Source:** Sir Edward Coke, *The Selected Writings and Speeches of Sir Edward Coke*, edited by Steve Sheppard (Liberty Fund, 2003), **Volume One: selected Reports and prefaces**. **Format**: pdf | **Pages**: 620 PDF pages | **Sections**: 13 | **Depth**: study | **Type**: text
 
-This is not a branch of the workflow; it is the *stance* the whole workflow takes. Coke supplies the disposition that keeps this skill from degenerating into a top-down "theory of rules": law is a trained practice whose categories are earned from accumulated cases, whose materiality is found rather than defined, and which is honest about where it runs out.
+## Mental Model (read first)
 
-**Contents**
-1. Artificial reason: law as a trained discipline
-2. Reason is the life of the law
-3. Earned classification: knowledge built from cases and glosses
-4. Reports: stabilize and transmit, so the practice can be reasoned within
-5. The common law as a measure of other law-making (and its contested edge)
-6. What this stance forbids, and what it requires
+Coke asks what legal authority supports an act, how the relevant text and established practice fit together, and what legal route can give the claimant relief. Legal reason is cultivated through study, comparison, professional deliberation, and accurate records. This method includes statutory construction and explicit reasoning from principles; it cannot be reduced to collecting fact matches or opposing definitions.
 
----
+This module distills selected methodological passages across the Reports. Thirteen is the number of report Parts represented in the volume, not a claim that every report has been analyzed. Page citations below refer to Sheppard's printed Volume One pagination. Its contents list covers the larger three-volume collection, but the supplied PDF ends with Volume One's Reports; the later treatises, Institutes selections, and parliamentary speeches are not present. “Ed.” introductions, translations, chronology, and annotations are Sheppard's editorial apparatus, distinct from Coke's report text. The separate [Coke on Littleton reference](reference-coke-institutes.md) treats the supplied Institutes volume.
 
-## 1. Artificial reason: law as a trained discipline
+## Frameworks & Structure
 
-Coke's most consequential idea for this skill is the **"artificial reason"** of the law. In the famous exchange reported in *Prohibitions del Roy* (12 Co. Rep. 63), James I proposed that, since law is founded on reason and the King has reason, he could himself decide causes. Coke's reply: causes are not decided by natural reason but by the **artificial reason and judgment of law** — an artificial perfection of reason gotten by **long study, observation, and experience**, which a man attains only after long training, and without which even great natural gifts do not qualify one to decide legal questions. Coke's Latin tag in the *Reports* preface runs the same way: natural and *artificial* truths made by art are finite — the law is a made, bounded, learnable craft, not raw intuition.
+### Recording and learning the law — Reports, Part One preface, pp. 4–6
 
-**Consequence for the skill:** resist the move of reasoning to a legal conclusion straight from first principles, moral intuition, or "common sense." A legal answer is a claim *within a trained practice*. When an argument reaches its conclusion by general reasoning that bypasses the accumulated materials, flag it — that is exactly the natural-reason shortcut Coke warned against.
+**Reliable report / wandering report.** A retelling can scramble the state of the question, detach a rule from its reasons, or attribute an opinion to judges who did not express it. Preserve the issue, posture, reasons, and disposition before compressing a case. A clear rule based on an unreliable report is not a useful achievement.
 
----
+**Reading, hearing, conference, meditation, recordation, orderly observation.** Coke treats legal learning as a connected practice: reading and hearing require reflection and discussion, and accumulated observation must be recorded in order. The transferable method is active comparison and revision, not passive quotation. A disagreement or counterexample is a reason to return to the material and improve the account.
 
-## 2. Reason is the life of the law
+**Authority is inspectable.** Reporting makes a decision available for later assessment; it does not make every sentence conclusive. Compare with Duxbury's account of revisable precedent and the function of ratio. The synthesis is a reusable record whose scope and uncertainties remain visible.
 
-For Coke the common law *is* reason — but reason as embodied in the accumulated decisions, customs, and records of the realm, not free-floating rationality. "Reason is the life of the law; nay, the common law itself is nothing else but reason" — and that reason is the summed, refined product of many cases (*summa ratio*), gotten by long study. So "the law is reasonable" does not license deducing results from abstract reason; it means the results are the *worked-out* reason of the cases. This is the antidote to the restatement reflex: the reasonableness of law lives in the case-by-case working, not in a clean rule extracted from it.
+### Text, legal form, and the route of acquisition — Part One, Shelley's Case, pp. 6–38
 
----
+**Words of limitation / purchase.** The report examines whether language involving heirs marks the extent of an estate or identifies persons taking a new interest. “Heir” does not do the same legal work in every instrument. The chronology of the recovery, the uses, death, and vesting matters to the competing classifications.
 
-## 3. Earned classification: knowledge built from cases and glosses
+**Classification by legal operation.** Reconstruct what the instrument is alleged to accomplish and the stage at which that consequence occurs. Do not infer the route of acquisition simply from who ultimately obtains the land. This reference retains the interpretive distinction, not a complete reconstruction of the long report or a current rule in Shelley's Case.
 
-Coke's *Institutes* — above all the First Institute, his commentary on Littleton — is the paradigm of common-law knowledge: not a code deduced from axioms but an **ordered accumulation of distinctions worked out through cases, tenures, custom, and prior authority**, glossed and cross-referenced so it can be taught and reused. The categories (estates, tenures, conditions, incidents) are earned from how the law actually sorted disputes over land and obligation, not imposed from above.
+**Boundary.** The historical rule and its applications cannot be treated as contemporary conveyancing law. Use the report to learn how text, sequence, and legal category interact; obtain applicable modern law for an actual instrument.
 
-**Consequence for the skill — the load-bearing point:** a legal category is legitimate only to the extent the materials have actually placed comparable fact-settings into it.
-- **Do not define the category and deduce the answer.** Look at how courts drew — and *refused* to draw — the line in particular settings.
-- **Materiality is a finding, not a definition.** Which facts count is settled by what past courts treated as operative, not by what a rule-statement happens to highlight.
-- **A category has an earned reach.** Applying it to a fact-setting no case has placed there is an *extension*, which must be flagged as such rather than smuggled in as settled.
+### Statutes as remedies for identified defects — Part Three, Heydon's Case, pp. 78–83
 
----
+**The four considerations** are the common law before the enactment; the mischief and defect it did not address; the remedy Parliament selected; and the reason for that remedy. Preserve all four. Identifying an undesirable outcome is not enough: the enacted remedy and its scope remain part of the inquiry.
 
-## 4. Reports: stabilize and transmit, so the practice can be reasoned within
+**Interpretive operation.** In the report, the court asks whether existing life copyholds count as life interests within the statutory provision affecting later leases. The analysis connects the text with the problem of religious houses granting long leases as dissolution approached. This is a question about the reach of an enacted classification in its remedial setting.
 
-Coke's lifelong project of law-reporting rests on a premise: legal knowledge must be **recorded, ordered, and made transmissible**, or it dissolves into uncertain memory and wandering report. Error multiplies itself; truth, once fixed and reported, endures and can be built on. The reports exist so that later lawyers can reason *within* a stable body of worked decisions rather than starting over each time.
+**Mischief / enacted choice.** A construction that frustrates the identified remedy demands explanation. But a broad public purpose does not itself authorize rewriting a specific condition, ignoring an exception, or selecting a different remedy. The advisor's constraint here combines Heydon with the whole-text reasoning in Bonham and the limits of commission in Isle of Ely.
 
-**Consequence for the skill:** this is where precedent digestion earns its place — as a *tool* for stabilizing a particular decision so it can be reasoned with (see `precedent-extraction.md`). But note the tension Coke leaves us: his impulse is to *stabilize*, while precedent (per Duxbury) remains *defeasible*. The skill honours both by producing clear statements that also mark their scope and their openness — stable enough to transmit, honest enough not to claim false closure.
+**Historical scope.** The report presents the method broadly; whether it controls a present interpretive dispute depends on the forum's law. It is a source-derived reasoning resource, not a universal hierarchy of interpretive methods.
 
----
+### Established course and tested precedent — Part Four, Slade's Case, pp. 116–124
 
-## 5. The common law as a measure of other law-making (and its contested edge)
+**Common course / isolated occurrence.** Coke's discussion records the weight of established forms and practices even against an initial judicial inclination. Yet two or three procedural returns do not establish a course against numerous contrary examples; unchallenged practice may require correction rather than deference. Frequency, deliberation, contrary instances, and fit with law matter separately.
 
-Coke repeatedly treats the common law as a standard against which other law-making is measured. In the by-law and ordinance cases, measures "contrary or repugnant to the laws or statutes of the realm" are void; and in *Dr Bonham's Case* (8 Co. Rep. 114a) he famously suggested that the common law may "control" Acts of Parliament and adjudge them void when "against common right and reason."
+**Precedent of practice / decided proposition.** A form of declaration or return can bear on an argument without being a modern holding on a disputed issue. Identify the kind of authority offered. A customary practice and a contested judicial decision may demand different evidence and different explanations of weight.
 
-**Handle with care.** *Bonham's Case* is genuinely contested — its meaning, and whether Coke asserted a power of judicial review over statute, are debated, and under later parliamentary sovereignty the strong reading did not prevail in England. Present it accurately: as Coke's claim that legal reason operates as a *constraint* on other legal actors, and as a historically important but disputed proposition — not as settled black-letter law. This itself models the skill's honesty: report the authority *and* its contested status, rather than flattening it into a clean rule.
+**No authority / no legal answer.** The report contemplates adjudication according to law and reason where usable precedents are absent. A novel fact pattern is not necessarily a legally ungoverned situation. The advisor should identify the available rule, principle, text, and analogy, then mark the genuine uncertainty in their application.
 
----
+### A general maxim with institutional exceptions — Part Five, Semayne's Case, pp. 135–141
 
-## 6. What this stance forbids, and what it requires
+**House as castle.** Read the celebrated proposition alongside the report's distinctions concerning the purpose of entry, the kind of process, whose house or goods are involved, and requests made before breaking. A general protection can coexist with powers of lawful entry under specified conditions.
 
-**Forbids:**
-- Deducing legal answers from a top-down theory of rules or from general reason (the natural-reason shortcut).
-- Defining a category and reading the result off the definition.
-- Treating every judgment as raw material for a restatement entry.
-- Manufacturing closure where the materials run out.
+**Posture and relief.** The underlying dispute concerns execution of process for a private creditor. The report also discusses entry for royal process and delivery of possession after judgment. Do not collapse those settings into an absolute modern prohibition of official entry or an unlimited authority to break doors.
 
-**Requires:**
-- Earning classifications from how courts actually sorted comparable facts.
-- Treating materiality as a finding from the cases.
-- Reasoning *within* the accumulated practice, and saying so when an argument leaves it.
-- Naming openness plainly — where the categories or precedents run out, where lines were refused, where a novel fact-setting is not yet placed. In the common-law picture, the growing edge of the law is exactly these open spots; identifying them is not a failure of analysis but its most useful product.
+**Relational translation.** A householder's privilege to bar entry, a claim against unlawful entry, and an officer's power to execute process are distinct questions. This Hohfeldian translation is later analytical synthesis; Coke did not write an eight-position relation table.
+
+### Legally bounded discretion — Part Five, Rooke's Case, pp. 141–144
+
+**Discretion / private will.** Commissioners cannot substitute private preferences for the legal basis of their discretion. The statutory commission's instructions matter to how the burden is allocated. Do not jump from the word discretion to either unrestricted choice or absence of all judgment.
+
+**Materiality is reasoned.** Evidence that occupiers had repaired the bank did not necessarily establish an obligation binding the inheritor: those occupiers might have held limited interests. Identify who performed the historical acts and whether their legal position could affect the person now charged.
+
+**Distribution under the commission.** The report rejects charging only the adjacent land when other land also benefits from protection and faces flooding. Textual scope, benefit, and practical consequences work together. Equality is argued through the legal scheme and relevant interests, not imported as an unqualified demand for identical contributions in every modern public-work dispute.
+
+### A qualification of the artificial-reason slogan — Part Seven, Calvin's Case, pp. 166–232
+
+**Natural allegiance and legal classification.** Coke's report expressly uses natural-law premises and syllogistic conclusions in determining the status of a person born in Scotland after the crowns were united under one monarch. At pp. 224–225 he connects allegiance, protection, and the classification of a natural-born subject.
+
+**Why the qualification matters.** Artificial legal reason is not evidence that Coke rejected every natural-law proposition, general principle, or deductive inference. His method can combine them with statutes, cases, history, and institutional claims. The advisor must test a premise's basis and scope rather than reject its argumentative form merely because it is general.
+
+**Historical boundary.** The report's religious, monarchical, and hierarchical assumptions are historical material. They are not adopted as present norms or current nationality law. The present distillation retains its methodological counterexample to a simplistic reading of Coke; it does not reconstruct every issue in the report.
+
+### Whole-text interpretation, actor, and remedy — Part Eight, Dr. Bonham's Case, pp. 264–283
+
+**Separate grants of authority.** Bonham's false-imprisonment action requires examining the College's asserted power, not merely establishing that unlicensed practice was prohibited. Coke distinguishes a clause concerning unlicensed practice and its specified penalty from a clause concerning deficient medical practice and its sanctions. The beneficiary, act, period, penalty, and decision-maker are not interchangeable across clauses.
+
+**The statute as its own interpreter.** At p. 274, Coke reads the parts together and derives reasons from the letters patent and confirming Act. This is an explicit counterexample to the old advisor's suggestion that a legal category is legitimate only when prior cases have already placed comparable facts inside it. Textual structure can establish a legally operative distinction.
+
+**Judge, minister, and interested party.** At pp. 275–276, the report questions the combination of adjudication, execution, and a financial stake in the penalty. Identify the particular actor and function before describing the problem merely as unfairness. A prohibition on the conduct and a power to impose a remedy require different premises.
+
+**Common right and reason.** Coke's discussion of common-law control of Acts of Parliament is present in the report and has generated competing interpretations. A broader judicial-review reading and an interpretation-focused reading should be distinguished from the narrower statutory grounds. Do not present a single uncontested theory of modern constitutional review as the case's holding. This corpus does not settle the modern reception of the passage.
+
+**Editorial caution.** Sheppard's introduction is a guide to issues, not a substitute for the report. For example, the report itself must control any precise statement about the distribution of fines. A headnote's broad description cannot establish which clause authorized imprisonment.
+
+### Legal personality and public works — Part Ten
+
+**Sutton's Hospital, pp. 347–378.** Coke discusses the corporation as a body existing in legal consideration and investigates the constitution and effects of the incorporation. The absence of a natural body does not make the legal relations unreal. This connects with Hohfeld's warning against confusing physical and legal quantities. Retained here as a methodological comparison, not as an exhaustive incorporation test.
+
+**Case of the Isle of Ely, pp. 378–384.** A commission concerning sewers does not automatically authorize a newly proposed river. Coke examines the wording of the commission, omissions relative to earlier enactments, the enduring grant of authority, and a separate procedure for investigating harm and obtaining permission. Utility and legal competence must both be addressed.
+
+**Repair / novel undertaking.** A desirable project can exceed a grant aimed at repairing existing works. Describe the act at the level where the statutory distinction operates; “water management” is too broad if it erases a limitation between repair and new construction. This does not establish a modern rule forbidding innovation: it exposes the missing authority for the particular act.
+
+### Adjudicative office and learned judgment — Part Twelve, Prohibitions del Roy, pp. 478–481
+
+**Artificial reason and judgment of law.** Coke reports resisting the argument that the king's natural intelligence entitles him to decide legal causes personally. The answer combines learned judgment with the allocation of adjudication to courts and the availability of legal remedies. Expertise alone is not the whole issue: office, procedure, and legal control matter.
+
+**Legal competence / personal capacity.** A ruler may have intelligence and practical power without authority to take a cause away from the designated court. Translate a proposed intervention into the legal change it purports to produce and identify the authorized institution.
+
+**Source status.** This is Coke's account of a conference, published in the Reports, not a modern multi-opinion appellate judgment. The editor notes that other reports depict the encounter differently. Attribute the account; do not invent a verbatim transcript, unanimous modern ratio, or direct factual verification of the exchange.
+
+### Novelty, deliberation, and prerogative — Part Twelve, Proclamations, pp. 486–489
+
+**Existing offence / creation of offence.** Coke distinguishes warning against already unlawful conduct from making previously lawful conduct criminal by proclamation. Identify whether the act announces, administers, or changes law. A practical need to address a grievance does not itself supply lawmaking power.
+
+**Established bounds of prerogative.** The report tests authority against law, statute, custom, and established forms of indictments. The inquiry is not simply whether an earlier proclamation exists: prior instances must themselves be examined for legal support.
+
+**Deliberation before novelty.** Coke requests time to consult other judges before answering a consequential question without examined authority. The useful professional behavior is to identify and investigate the missing premise. For an advisor, this means targeted verification with a provisional conclusion, not ritual refusal or an unnecessary demand for permission.
+
+### Remaining report Parts and selection limits
+
+Parts Two, Six, Nine, Eleven, and Thirteen are represented in the volume's structure but are not separately reconstructed in depth here. Their detailed bankruptcy, jurisdiction, nuisance, criminal, corporate-office, and tithes doctrines are outside this selected methodological treatment. Other reports within the Parts used above are likewise not silently included. The maintainer's coverage ledger records the retained report units and exclusions; runtime answers should not cite an unexamined report as if it had been distilled.
+
+## Worked Example
+
+Reconstruct Bonham's central power question from pp. 264–276. The College argues from a prohibition on unlicensed practice to an authority to imprison Bonham. First identify the conduct: practice without admission is not the same allegation as deficient practice. Next compare the two clauses, including their sanctions and decision-makers. Ask whether the imprisonment power belongs to the clause engaged by the alleged facts. Finally examine the College's roles and stake in the sanction. The report's interpretive reasoning can undercut the asserted power without beginning with a sweeping constitutional theory. A Hohfeldian translation distinguishes Bonham's alleged duty concerning practice from his liability to imprisonment by these actors. That translation is this repository's synthesis; the historical report supplies the underlying distinction.
+
+## Decision Rules & Judgment
+
+- When a broad proposition is cited, recover the question and distinctions that gave it legal work.
+- When discretion is invoked, identify its source, object, limits, and the reasons actually offered for its exercise.
+- When public benefit supports a proposal, separately establish authority for that actor, act, and remedy.
+- When construing an enactment, examine its parts together and connect the selected remedy with the identified defect.
+- When a novel case lacks a factual twin, investigate governing text, established practice, principles, and reasoned analogy before declaring a gap.
+- When a historical maxim sounds absolute, read the report's limiting examples and counterexamples.
+- When a report, headnote, or later editor speaks, preserve that voice's attribution and evidential status.
+- When explaining artificial reason, include legal training and institutional allocation without claiming Coke excluded all natural-law or deductive reasoning.
+
+## Key Takeaways
+
+1. Coke supplies a demanding practice of legal justification, not a ban on rules or definitions.
+2. Conduct, actor, competence, process, and remedy must fit the relevant authority.
+3. Accurate reporting enables comparison while leaving later interpretation possible.
+4. Historical examples illustrate method; they do not determine current law by themselves.

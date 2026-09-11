@@ -9,3 +9,11 @@
 
 # Packaged skill uploads
 *.zip
+
+# Source corpora and temporary extraction output
+*.pdf
+*.epub
+full_text.txt
+book_skill_work/
+__pycache__/
+*.pyc

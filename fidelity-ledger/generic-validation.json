@@ -1,0 +1,31 @@
+{
+  "errors": [],
+  "warnings": [
+    "CHANGELOG.md \u2014 unexpected file at the skill root; the contract is SKILL.md plus a references/ directory",
+    "NOTICE.md \u2014 unexpected file at the skill root; the contract is SKILL.md plus a references/ directory",
+    "references/common-law-method.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/hohfeld-toolkit.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/move-taxonomy.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/precedent-extraction.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/precedent-method.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md"
+  ],
+  "facts": {
+    "skill_root": ".",
+    "discovery_entry": ".agents/skills/legal-reasoning-advisor",
+    "layout": "published-repo",
+    "master_body_tokens": 3069,
+    "master_budget": 3725,
+    "master_capabilities": 7,
+    "references": {
+      "reference-coke-institutes.md": {
+        "tokens": 4323,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 13,
+        "budget": 8708
+      }
+    },
+    "books": 1
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "layout": "existing advisor; published-repo plus manifest-driven source checks",
+  "source_count": 4,
+  "runtime_module_count": 6,
+  "errors": [],
+  "warnings": [],
+  "generic_profile": {
+    "errors": [],
+    "warnings": [
+      "CHANGELOG.md \u2014 unexpected file at the skill root; the contract is SKILL.md plus a references/ directory",
+      "NOTICE.md \u2014 unexpected file at the skill root; the contract is SKILL.md plus a references/ directory",
+      "references/common-law-method.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+      "references/hohfeld-toolkit.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+      "references/move-taxonomy.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+      "references/precedent-extraction.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+      "references/precedent-method.md \u2014 unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md"
+    ],
+    "facts": {
+      "skill_root": ".",
+      "discovery_entry": ".agents/skills/legal-reasoning-advisor",
+      "layout": "published-repo",
+      "master_body_tokens": 3069,
+      "master_budget": 3725,
+      "master_capabilities": 7,
+      "references": {
+        "reference-coke-institutes.md": {
+          "tokens": 4323,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 13,
+          "budget": 8708
+        }
+      },
+      "books": 1
+    }
+  },
+  "compatibility_note": "The generic profile recognizes only reference-* names as books. Its existing-name warnings and book count are retained; the four-source measurements below are authoritative for this rebuild.",
+  "facts": {
+    "master_body_tokens": 3069,
+    "master_budget": 3950,
+    "master_capabilities": 7,
+    "references": {
+      "hohfeld-toolkit.md": {
+        "tokens": 4093,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 3,
+        "budget": 5898
+      },
+      "reference-coke-institutes.md": {
+        "tokens": 4323,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 13,
+        "budget": 8708
+      },
+      "common-law-method.md": {
+        "tokens": 4410,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 13,
+        "budget": 8708
+      },
+      "precedent-method.md": {
+        "tokens": 5066,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 5,
+        "budget": 6654
+      }
+    },
+    "synthesis_modules": {
+      "move-taxonomy.md": {
+        "tokens": 3131,
+        "cap": 6000
+      },
+      "precedent-extraction.md": {
+        "tokens": 2261,
+        "cap": 6000
+      }
+    },
+    "relative_links_checked": 22
+  },
+  "instruction_scans": {
+    "core": {
+      "exit_code": 0,
+      "findings": []
+    },
+    "references": {
+      "exit_code": 0,
+      "findings": []
+    }
+  },
+  "runtime_sha256": {
+    "SKILL.md": "cf3b5db7a3d5a8e4e3f3871dcbf70ed11abb6e7374e9257c4044d97780e4a9eb",
+    "references/common-law-method.md": "de502a8b87bfb9cfbfa3777966534a2cf7c2eb90d9a18226abdfad3571459858",
+    "references/hohfeld-toolkit.md": "e719cfdd4759f73b32aaf8aa079cf0183e4e4c94a07f690c9a981151af58db72",
+    "references/move-taxonomy.md": "542b09cd5d7640f6111d469fed5d1470b27570c9938ffca979a47ca495ade7a1",
+    "references/precedent-extraction.md": "82df271b029960f453ee07d2b198c88632f110b504083dc481c52963d52beec3",
+    "references/precedent-method.md": "bd3e1eb49dca69930442dc099ecc30a2656d676687f12dec67d6dc70efd690ed",
+    "references/reference-coke-institutes.md": "fe28f799137ce7dae4a5519d88858125d5c38aa85226f7c47ce1b6a1991314b4"
+  },
+  "limits": "Structural, routing, budget, and advisory scan checks; not semantic proof or an independent behavioral benchmark."
+}
