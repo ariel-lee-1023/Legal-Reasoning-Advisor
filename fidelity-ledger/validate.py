@@ -2,7 +2,7 @@
 """Validate the established advisor layout using the books-to-skill-refs checks.
 
 The generic validator intentionally remains unmodified. Its filename-based source
-count is supplemented by the four source modules recorded in the manifest.
+count is supplemented by the nine source modules recorded in the manifest.
 """
 from __future__ import annotations
 
@@ -34,12 +34,22 @@ def main() -> int:
     expected_sources = {
         'hohfeld-toolkit.md', 'reference-coke-institutes.md',
         'common-law-method.md', 'precedent-method.md',
+        'reference-maccormick-rhetoric.md', 'reference-toulmin-uses-of-argument.md',
+        'reference-argumentation-schemes.md', 'reference-analysis-of-evidence.md',
+        'reference-prakken-defeasible-argument.md',
     }
     expected_modules = expected_sources | {'move-taxonomy.md', 'precedent-extraction.md'}
-    if manifest['source_count'] != 4 or len(references) != 4:
-        report.error('Exactly four supplied sources must be recorded')
+    if manifest['source_count'] != 9 or len(references) != 9:
+        report.error('Exactly nine verified sources must be recorded')
     if {p.name for p in references} != expected_sources:
-        report.error('Manifest must map to the four canonical source modules')
+        report.error('Manifest must map to the nine canonical source modules')
+    rejected = manifest.get('rejected_sources', [])
+    if len(rejected) != 1 or rejected[0].get('runtime_reference') is not None:
+        report.error('The mismatched Ashley submission must remain excluded from runtime coverage')
+    if len({s['sha256'] for s in manifest['sources']}) != 9:
+        report.error('Verified sources must have distinct content hashes')
+    if manifest.get('accepted_new_files') != 5 or manifest.get('submitted_new_files') != 6:
+        report.error('Expansion accounting must distinguish five accepted and six submitted files')
     actual_modules = {p.name for p in (root / 'references').iterdir() if p.is_file()}
     if actual_modules != expected_modules:
         report.error('Runtime module set changed; review architecture and manifest')
@@ -48,7 +58,7 @@ def main() -> int:
     v.check_master_frontmatter(master, report, 'legal-reasoning-advisor')
     all_modules = [root / 'references' / n for n in sorted(expected_modules)]
     v.check_router(master, root, all_modules, report)
-    v.check_master_budget(master, 4, 0, report)
+    v.check_master_budget(master, 9, 0, report)
     if re.search(r'\]\([^)]*fidelity-ledger', master):
         report.error('Maintainer records must not be domain-answer loading links')
     for source, path in zip(manifest['sources'], references):
@@ -124,16 +134,16 @@ def main() -> int:
     result = {
         'status': 'passed' if not (report.errors or generic.errors) else 'failed',
         'layout': 'existing advisor; published-repo plus manifest-driven source checks',
-        'source_count': 4,
-        'runtime_module_count': 6,
+        'source_count': 9,
+        'runtime_module_count': 11,
         'errors': report.errors + generic.errors,
         'warnings': report.warnings,
         'generic_profile': generic_data,
-        'compatibility_note': 'The generic profile recognizes only reference-* names as books. Its existing-name warnings and book count are retained; the four-source measurements below are authoritative for this rebuild.',
+        'compatibility_note': 'The generic profile recognizes only reference-* names as books. Its existing-name warnings and book count are retained; the nine-source measurements below are authoritative for this rebuild.',
         'facts': report.facts,
         'instruction_scans': scans,
         'runtime_sha256': {p.relative_to(root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in runtime},
-        'limits': 'Structural, routing, budget, and advisory scan checks; not semantic proof or an independent behavioral benchmark.',
+        'limits': 'Structural, routing, budget, manifest, and advisory scan checks; not semantic proof or an independent behavioral benchmark. See expansion-evaluation.md for behavioral test status.',
     }
     if args.write:
         (ledger / 'generic-validation.json').write_text(json.dumps(generic_data, indent=2) + '\n')

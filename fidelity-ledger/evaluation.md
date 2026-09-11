@@ -1,3 +1,5 @@
+> Historical baseline record: this four-source editorial review predates the five-source expansion. It remains same-author review. See [expansion evaluation](expansion-evaluation.md) for the new test status.
+
 # Editorial regression review
 
 Date: 2026-09-11. Reviewer: the rebuilding assistant. Method: read the rebuilt core and relevant module against each stipulated prompt below, produce the short sample response recorded here, and check it against the stated acceptance criterion. This is a same-author editorial assessment, not an independent model run, blinded comparison, legal validation, or benchmark score. The old implementation was inspected as text; it was not run in an A/B experiment.

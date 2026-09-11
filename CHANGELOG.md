@@ -13,6 +13,15 @@ Because this is a prose skill rather than code, versioning is read as follows:
 
 ## [Unreleased]
 
+### Argument and evidence methods expansion (2026-09-11)
+
+- Added five source references from six submitted files: MacCormick, Toulmin, Walton–Reed–Macagno, Anderson–Schum–Twining, and Prakken. Rejected the Ashley-named Markdown after its contents and neighboring PDF proved to be a different book.
+- Integrated legal premise justification, explicit warrant reconstruction, evidence charts, scheme-specific objections, and argument/conclusion revision into the expert core and existing diagnostic synthesis.
+- Preserved the four earlier source modules and optional digest; retained Hohfeld and Duxbury as specialists and focused Coke routing on historical method.
+- Preserved source worked arguments, counterexamples, conditions of failure, theoretical disagreements, and explicit limits on OCR-damaged formal material.
+- Expanded source accounting and checks to nine verified sources and eleven runtime modules.
+- Added twelve two-round transfer probes and a tested blinded-input exporter. Independent behavioral runs and a verified Ashley source remain pending; improved reliability is not claimed.
+
 ### Expert rebuild (2026-09-11)
 
 - Re-distilled all four supplied files with books-to-skill-refs; preserved the five established reference paths and added a dedicated Coke-on-Littleton module.

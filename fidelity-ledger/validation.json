@@ -1,8 +1,8 @@
 {
   "status": "passed",
   "layout": "existing advisor; published-repo plus manifest-driven source checks",
-  "source_count": 4,
-  "runtime_module_count": 6,
+  "source_count": 9,
+  "runtime_module_count": 11,
   "errors": [],
   "warnings": [],
   "generic_profile": {
@@ -20,10 +20,26 @@
       "skill_root": ".",
       "discovery_entry": ".agents/skills/legal-reasoning-advisor",
       "layout": "published-repo",
-      "master_body_tokens": 3069,
-      "master_budget": 3725,
-      "master_capabilities": 7,
+      "master_body_tokens": 4251,
+      "master_budget": 4800,
+      "master_capabilities": 9,
       "references": {
+        "reference-analysis-of-evidence.md": {
+          "tokens": 5160,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 12,
+          "budget": 8496
+        },
+        "reference-argumentation-schemes.md": {
+          "tokens": 5281,
+          "cap": 19500,
+          "depth": "study",
+          "type": "technical",
+          "sections": 12,
+          "budget": 11307
+        },
         "reference-coke-institutes.md": {
           "tokens": 4323,
           "cap": 14000,
@@ -31,16 +47,40 @@
           "type": "text",
           "sections": 13,
           "budget": 8708
+        },
+        "reference-maccormick-rhetoric.md": {
+          "tokens": 4622,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 13,
+          "budget": 8708
+        },
+        "reference-prakken-defeasible-argument.md": {
+          "tokens": 4590,
+          "cap": 19500,
+          "depth": "study",
+          "type": "technical",
+          "sections": 11,
+          "budget": 10986
+        },
+        "reference-toulmin-uses-of-argument.md": {
+          "tokens": 3741,
+          "cap": 14000,
+          "depth": "study",
+          "type": "text",
+          "sections": 5,
+          "budget": 6654
         }
       },
-      "books": 1
+      "books": 6
     }
   },
-  "compatibility_note": "The generic profile recognizes only reference-* names as books. Its existing-name warnings and book count are retained; the four-source measurements below are authoritative for this rebuild.",
+  "compatibility_note": "The generic profile recognizes only reference-* names as books. Its existing-name warnings and book count are retained; the nine-source measurements below are authoritative for this rebuild.",
   "facts": {
-    "master_body_tokens": 3069,
-    "master_budget": 3950,
-    "master_capabilities": 7,
+    "master_body_tokens": 4251,
+    "master_budget": 5025,
+    "master_capabilities": 9,
     "references": {
       "hohfeld-toolkit.md": {
         "tokens": 4093,
@@ -73,11 +113,51 @@
         "type": "text",
         "sections": 5,
         "budget": 6654
+      },
+      "reference-maccormick-rhetoric.md": {
+        "tokens": 4622,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 13,
+        "budget": 8708
+      },
+      "reference-toulmin-uses-of-argument.md": {
+        "tokens": 3741,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 5,
+        "budget": 6654
+      },
+      "reference-argumentation-schemes.md": {
+        "tokens": 5281,
+        "cap": 19500,
+        "depth": "study",
+        "type": "technical",
+        "sections": 12,
+        "budget": 11307
+      },
+      "reference-analysis-of-evidence.md": {
+        "tokens": 5160,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 12,
+        "budget": 8496
+      },
+      "reference-prakken-defeasible-argument.md": {
+        "tokens": 4590,
+        "cap": 19500,
+        "depth": "study",
+        "type": "technical",
+        "sections": 11,
+        "budget": 10986
       }
     },
     "synthesis_modules": {
       "move-taxonomy.md": {
-        "tokens": 3131,
+        "tokens": 4777,
         "cap": 6000
       },
       "precedent-extraction.md": {
@@ -85,7 +165,7 @@
         "cap": 6000
       }
     },
-    "relative_links_checked": 22
+    "relative_links_checked": 40
   },
   "instruction_scans": {
     "core": {
@@ -98,13 +178,18 @@
     }
   },
   "runtime_sha256": {
-    "SKILL.md": "cf3b5db7a3d5a8e4e3f3871dcbf70ed11abb6e7374e9257c4044d97780e4a9eb",
+    "SKILL.md": "f9fd59f1e3c4328400f658f30bfb28b9d77e6438ce9822dbac2faa36cf678563",
     "references/common-law-method.md": "de502a8b87bfb9cfbfa3777966534a2cf7c2eb90d9a18226abdfad3571459858",
     "references/hohfeld-toolkit.md": "e719cfdd4759f73b32aaf8aa079cf0183e4e4c94a07f690c9a981151af58db72",
-    "references/move-taxonomy.md": "542b09cd5d7640f6111d469fed5d1470b27570c9938ffca979a47ca495ade7a1",
+    "references/move-taxonomy.md": "ee01aaaa9f52eee1ba630b1176bcf9790b4d058e965745b0b35053a3814e88e8",
     "references/precedent-extraction.md": "82df271b029960f453ee07d2b198c88632f110b504083dc481c52963d52beec3",
     "references/precedent-method.md": "bd3e1eb49dca69930442dc099ecc30a2656d676687f12dec67d6dc70efd690ed",
-    "references/reference-coke-institutes.md": "fe28f799137ce7dae4a5519d88858125d5c38aa85226f7c47ce1b6a1991314b4"
+    "references/reference-analysis-of-evidence.md": "d52890657c72e5ff5392c880808d93fc661054fdba571212865964a395ecd17f",
+    "references/reference-argumentation-schemes.md": "d681ca7228defcb563d0688627313d7b3c937b9a889df47179141c74b1e3bb91",
+    "references/reference-coke-institutes.md": "fe28f799137ce7dae4a5519d88858125d5c38aa85226f7c47ce1b6a1991314b4",
+    "references/reference-maccormick-rhetoric.md": "53dcf63296ec1308428d2698e214711d4610addb80784bb72d475a4bfa7d1dac",
+    "references/reference-prakken-defeasible-argument.md": "38eaa3db43e73f20b70e6bd1c201e685383f39178205e7d6022fb1b0df30d8cc",
+    "references/reference-toulmin-uses-of-argument.md": "398f27d006d526087e42941871f2c006e891fcc0bf15aae6961912cdfc202e7c"
   },
-  "limits": "Structural, routing, budget, and advisory scan checks; not semantic proof or an independent behavioral benchmark."
+  "limits": "Structural, routing, budget, manifest, and advisory scan checks; not semantic proof or an independent behavioral benchmark. See expansion-evaluation.md for behavioral test status."
 }

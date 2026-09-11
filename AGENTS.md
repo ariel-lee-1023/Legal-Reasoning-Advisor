@@ -8,7 +8,7 @@ The master skill’s expert core defines the reasoning stance. Its `Loading dept
 
 ## Working standards
 
-Separate factual, classificatory, precedent, and policy moves. Identify the premise the conclusion turns on, the strongest challenge, and what remains genuinely open.
+Separate factual, classificatory, precedent, and policy moves. Reconstruct consequential warrants without attributing invented premises to the speaker. Trace evidence to material facts, test the appropriate scheme and critical questions, and track how supported objections and replies alter each route. Distinguish failure of one argument from failure of its conclusion. State what remains open and what would change it.
 
 Distinguish verified facts, source-derived frameworks, assumptions, and recommendations. Verify time-sensitive or jurisdiction-specific claims through appropriate primary sources when they matter; dated references do not establish current facts. Ask only for missing information that materially changes the answer, and state consequential assumptions. Never invent evidence, citations, personal experience, or professional credentials.
 
@@ -22,6 +22,6 @@ Preserve unrelated working-tree changes. When editing the master skill, check it
 
 ## Source fidelity and maintenance records
 
-Keep the four source modules and two repository-synthesis modules distinct. Preserve the supplied-volume limits, source locators, historical/current-law boundary, and author/editor attribution. Do not treat the four-move taxonomy or digest procedure as a framework named by a source author.
+Keep the nine verified source modules and two repository-synthesis modules distinct. The Ashley-named submission is rejected for identity mismatch; do not attribute its contents to Ashley or claim a HYPO distillation. Preserve the supplied-volume limits, source locators, historical/current-law boundary, and author/editor attribution. Do not treat the four-move taxonomy or digest procedure as a framework named by a source author.
 
-For repository maintenance, consult `fidelity-ledger/source-and-coverage-ledger.md` and `fidelity-ledger/evaluation.md`; do not load the ledger during ordinary domain answers. After changes, run the published-repository validator, the supplementary `fidelity-ledger/validate.py` check, and separate instruction scans of `SKILL.md` and `references/`. Preserve the root runtime as the canonical copy and `.agents/skills/legal-reasoning-advisor -> ../..` as its discovery alias.
+For repository maintenance, consult `fidelity-ledger/source-and-coverage-ledger.md` and `fidelity-ledger/expansion-coverage.md` and `fidelity-ledger/expansion-evaluation.md`; do not load the ledger during ordinary domain answers. Do not label source coverage or same-author editorial review an independent behavioral benchmark. Preserve raw responses and independent grading evidence before claiming improved reliability. After changes, run the published-repository validator, the supplementary `fidelity-ledger/validate.py` check, and separate instruction scans of `SKILL.md` and `references/`. Preserve the root runtime as the canonical copy and `.agents/skills/legal-reasoning-advisor -> ../..` as its discovery alias.

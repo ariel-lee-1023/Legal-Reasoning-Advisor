@@ -1,9 +1,9 @@
 {
   "build_date": "2026-09-11",
-  "base_commit": "bb26e9e",
-  "method": "books-to-skill-refs; existing-repository adaptation",
+  "base_commit": "bc9fbef4b8da46cf6548e15d94349d7da5e4c315",
+  "method": "books-to-skill-refs; existing-repository expansion; identity-checked sources",
   "token_method": "script-density (bookrefs.tokens); not word-split",
-  "source_count": 4,
+  "source_count": 9,
   "extraction_failures": [],
   "sources": [
     {
@@ -18,12 +18,13 @@
       "verified_structure_units": 3,
       "depth": "study",
       "type": "text",
-      "coverage": "1913 article, journal pages 16–59; later installment excluded",
+      "coverage": "1913 article, journal pages 16\u201359; later installment excluded",
       "runtime_reference": "references/hohfeld-toolkit.md",
       "corpus_span": {
         "start_line": 4,
         "end_line": 2198
-      }
+      },
+      "extraction_batch": "four-source-rebuild"
     },
     {
       "filename": "The First Part of the Institutes of the Law of England (2 Volumes) (Unknown).pdf",
@@ -42,7 +43,8 @@
       "corpus_span": {
         "start_line": 2202,
         "end_line": 65006
-      }
+      },
+      "extraction_batch": "four-source-rebuild"
     },
     {
       "filename": "The selected writings and speeches of Sir Edward Coke (Coke, Edward, Sir, 1552-1634, Sheppard etc.).pdf",
@@ -61,7 +63,8 @@
       "corpus_span": {
         "start_line": 65010,
         "end_line": 90573
-      }
+      },
+      "extraction_batch": "four-source-rebuild"
     },
     {
       "filename": "Nature-and-authority-precedent-Neil-Duxbury.md",
@@ -75,12 +78,135 @@
       "verified_structure_units": 5,
       "depth": "study",
       "type": "text",
-      "coverage": "Five main chapters, pp. 1–183; index not distilled",
+      "coverage": "Five main chapters, pp. 1\u2013183; index not distilled",
       "runtime_reference": "references/precedent-method.md",
       "corpus_span": {
         "start_line": 90577,
         "end_line": 92894
+      },
+      "extraction_batch": "four-source-rebuild"
+    },
+    {
+      "filename": "Rhetoric-and-the-Rule-of-Law-A-Theory-of-Legal-Reasoning-Law-State-and-Practical.md",
+      "sha256": "b8a18eab09c771a800c739752e23de9b81e7c2ec79499438d03f71505b079fae",
+      "bytes": 974663,
+      "format": "md",
+      "extraction_pages": 538,
+      "page_count_kind": "converter estimate, not printed pagination",
+      "source_tokens_estimated": 242244,
+      "automated_chapters": 2,
+      "verified_structure_units": 13,
+      "depth": "study",
+      "type": "text",
+      "coverage": "Chapter structure inventoried; targeted operational distillation with explicit exclusions; not full-text exhaustive analysis",
+      "runtime_reference": "references/reference-maccormick-rhetoric.md",
+      "extraction_batch": "six-submission-expansion",
+      "corpus_span": {
+        "start_line": 4,
+        "end_line": 3299
+      }
+    },
+    {
+      "filename": "Uses-of-Argument-Stephen-Edelston-Toulmin.md",
+      "sha256": "9a4cbc1983b9d787f06b8fccdf566401f27720d6fc2d2469bcf7b81733878fe1",
+      "bytes": 698157,
+      "format": "md",
+      "extraction_pages": 382,
+      "page_count_kind": "converter estimate, not printed pagination",
+      "source_tokens_estimated": 171866,
+      "automated_chapters": 0,
+      "verified_structure_units": 5,
+      "depth": "study",
+      "type": "text",
+      "coverage": "Chapter structure inventoried; targeted operational distillation with explicit exclusions; not full-text exhaustive analysis",
+      "runtime_reference": "references/reference-toulmin-uses-of-argument.md",
+      "extraction_batch": "six-submission-expansion",
+      "corpus_span": {
+        "start_line": 3303,
+        "end_line": 5672
+      }
+    },
+    {
+      "filename": "Argumentation-Schemes-Douglas-Walton-Professor-Christopher-Reed-etc-z-librarysk-.md",
+      "sha256": "9960fe34a7d2f558ade6edaf0bd904d0daadf8fc994b976d71d57b59782a8fef",
+      "bytes": 1054629,
+      "format": "md",
+      "extraction_pages": 584,
+      "page_count_kind": "converter estimate, not printed pagination",
+      "source_tokens_estimated": 262593,
+      "automated_chapters": 1,
+      "verified_structure_units": 12,
+      "depth": "study",
+      "type": "technical",
+      "coverage": "Chapter structure inventoried; targeted operational distillation with explicit exclusions; not full-text exhaustive analysis",
+      "runtime_reference": "references/reference-argumentation-schemes.md",
+      "extraction_batch": "six-submission-expansion",
+      "corpus_span": {
+        "start_line": 5676,
+        "end_line": 13701
+      }
+    },
+    {
+      "filename": "Analysis-of-evidence-Terence-Anderson-David-Schum-etc.md",
+      "sha256": "4f4a2198a15bad06d010406721f176ea548d5141b331fbd1dbb84fa647ca1968",
+      "bytes": 1197344,
+      "format": "md",
+      "extraction_pages": 658,
+      "page_count_kind": "converter estimate, not printed pagination",
+      "source_tokens_estimated": 296094,
+      "automated_chapters": 3,
+      "verified_structure_units": 12,
+      "depth": "study",
+      "type": "text",
+      "coverage": "Chapter structure inventoried; targeted operational distillation with explicit exclusions; not full-text exhaustive analysis",
+      "runtime_reference": "references/reference-analysis-of-evidence.md",
+      "extraction_batch": "six-submission-expansion",
+      "corpus_span": {
+        "start_line": 13705,
+        "end_line": 19458
+      }
+    },
+    {
+      "filename": "Logical-tools-for-modelling-legal-argument-a-study-of-defeasible-reasoning-in-la.md",
+      "sha256": "0befde00c60cea82ca1d7d2829f85ef2574cf34e25b2d3ddd3b4118bc28294f9",
+      "bytes": 1106688,
+      "format": "md",
+      "extraction_pages": 562,
+      "page_count_kind": "converter estimate, not printed pagination",
+      "source_tokens_estimated": 252953,
+      "automated_chapters": 13,
+      "verified_structure_units": 11,
+      "depth": "study",
+      "type": "technical",
+      "coverage": "Chapter structure inventoried; targeted operational distillation with explicit exclusions; not full-text exhaustive analysis",
+      "runtime_reference": "references/reference-prakken-defeasible-argument.md",
+      "extraction_batch": "six-submission-expansion",
+      "corpus_span": {
+        "start_line": 19462,
+        "end_line": 36479
       }
     }
+  ],
+  "submitted_new_files": 6,
+  "accepted_new_files": 5,
+  "rejected_sources": [
+    {
+      "filename": "Modeling-Legal-Arguments-Reasoning-with-Cases-and-Hypotheticals-Artificial-Intel.md",
+      "sha256": "ee4ff8a380644135ad502b1e791c2df792190d2883fc62dbe4aa3a1e2ff03a0f",
+      "bytes": 522213,
+      "reason": "Identity mismatch: body and title identify Probabilistic Similarity Networks by David E. Heckerman, with corrupted front matter; no Ashley or trade-secret content found. Neighboring PDF also mismatched.",
+      "requested_identity": "Kevin D. Ashley, Modeling Legal Argument: Reasoning with Cases and Hypotheticals",
+      "runtime_reference": null,
+      "extraction_batch": "six-submission-expansion",
+      "corpus_span": {
+        "start_line": 36483,
+        "end_line": 40807
+      }
+    }
+  ],
+  "not_supplied": [
+    "A verified Ashley monograph",
+    "Interpreting Statutes: A Comparative Study (MacCormick and Summers, eds.)",
+    "Analysis of Evidence separately hosted online appendices"
   ]
 }

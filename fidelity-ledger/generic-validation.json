@@ -13,10 +13,26 @@
     "skill_root": ".",
     "discovery_entry": ".agents/skills/legal-reasoning-advisor",
     "layout": "published-repo",
-    "master_body_tokens": 3069,
-    "master_budget": 3725,
-    "master_capabilities": 7,
+    "master_body_tokens": 4251,
+    "master_budget": 4800,
+    "master_capabilities": 9,
     "references": {
+      "reference-analysis-of-evidence.md": {
+        "tokens": 5160,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 12,
+        "budget": 8496
+      },
+      "reference-argumentation-schemes.md": {
+        "tokens": 5281,
+        "cap": 19500,
+        "depth": "study",
+        "type": "technical",
+        "sections": 12,
+        "budget": 11307
+      },
       "reference-coke-institutes.md": {
         "tokens": 4323,
         "cap": 14000,
@@ -24,8 +40,32 @@
         "type": "text",
         "sections": 13,
         "budget": 8708
+      },
+      "reference-maccormick-rhetoric.md": {
+        "tokens": 4622,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 13,
+        "budget": 8708
+      },
+      "reference-prakken-defeasible-argument.md": {
+        "tokens": 4590,
+        "cap": 19500,
+        "depth": "study",
+        "type": "technical",
+        "sections": 11,
+        "budget": 10986
+      },
+      "reference-toulmin-uses-of-argument.md": {
+        "tokens": 3741,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 5,
+        "budget": 6654
       }
     },
-    "books": 1
+    "books": 6
   }
 }

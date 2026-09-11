@@ -1,0 +1,512 @@
+{
+  "batch": "six-submission-expansion",
+  "scope": "Principal targeted slices only; excludes preliminary head/TOC/search outputs and ad hoc checks. Early tool truncation is not fully represented. Not a token-billing audit or a claim to have read every character in a selected range.",
+  "sources": [
+    {
+      "filename": "Rhetoric-and-the-Rule-of-Law-A-Theory-of-Legal-Reasoning-Law-State-and-Practical.md",
+      "logged_characters_shown": 63704,
+      "slices": [
+        {
+          "start_line": 513,
+          "end_line": 545,
+          "chars_shown": 5520,
+          "range_chars": 5520,
+          "truncated": false
+        },
+        {
+          "start_line": 713,
+          "end_line": 761,
+          "chars_shown": 4200,
+          "range_chars": 17124,
+          "truncated": true
+        },
+        {
+          "start_line": 1087,
+          "end_line": 1116,
+          "chars_shown": 3500,
+          "range_chars": 12164,
+          "truncated": true
+        },
+        {
+          "start_line": 1242,
+          "end_line": 1267,
+          "chars_shown": 3500,
+          "range_chars": 5365,
+          "truncated": true
+        },
+        {
+          "start_line": 1462,
+          "end_line": 1499,
+          "chars_shown": 5000,
+          "range_chars": 12086,
+          "truncated": true
+        },
+        {
+          "start_line": 1601,
+          "end_line": 1661,
+          "chars_shown": 4500,
+          "range_chars": 18061,
+          "truncated": true
+        },
+        {
+          "start_line": 2129,
+          "end_line": 2164,
+          "chars_shown": 4000,
+          "range_chars": 12129,
+          "truncated": true
+        },
+        {
+          "start_line": 2447,
+          "end_line": 2497,
+          "chars_shown": 3800,
+          "range_chars": 17429,
+          "truncated": true
+        },
+        {
+          "start_line": 2592,
+          "end_line": 2647,
+          "chars_shown": 3800,
+          "range_chars": 20352,
+          "truncated": true
+        },
+        {
+          "start_line": 2732,
+          "end_line": 2746,
+          "chars_shown": 2400,
+          "range_chars": 6069,
+          "truncated": true
+        },
+        {
+          "start_line": 2976,
+          "end_line": 3013,
+          "chars_shown": 3200,
+          "range_chars": 14092,
+          "truncated": true
+        },
+        {
+          "start_line": 1492,
+          "end_line": 1519,
+          "chars_shown": 3300,
+          "range_chars": 8135,
+          "truncated": true
+        },
+        {
+          "start_line": 1546,
+          "end_line": 1558,
+          "chars_shown": 2200,
+          "range_chars": 4198,
+          "truncated": true
+        },
+        {
+          "start_line": 1693,
+          "end_line": 1730,
+          "chars_shown": 3000,
+          "range_chars": 11008,
+          "truncated": true
+        },
+        {
+          "start_line": 1953,
+          "end_line": 1980,
+          "chars_shown": 2400,
+          "range_chars": 4173,
+          "truncated": true
+        },
+        {
+          "start_line": 2738,
+          "end_line": 2746,
+          "chars_shown": 2884,
+          "range_chars": 2884,
+          "truncated": false
+        },
+        {
+          "start_line": 1510,
+          "end_line": 1543,
+          "chars_shown": 3400,
+          "range_chars": 7706,
+          "truncated": true
+        },
+        {
+          "start_line": 2278,
+          "end_line": 2300,
+          "chars_shown": 3100,
+          "range_chars": 9362,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "filename": "Uses-of-Argument-Stephen-Edelston-Toulmin.md",
+      "logged_characters_shown": 43030,
+      "slices": [
+        {
+          "start_line": 4140,
+          "end_line": 4169,
+          "chars_shown": 4000,
+          "range_chars": 12355,
+          "truncated": true
+        },
+        {
+          "start_line": 4180,
+          "end_line": 4220,
+          "chars_shown": 6500,
+          "range_chars": 6533,
+          "truncated": true
+        },
+        {
+          "start_line": 4221,
+          "end_line": 4265,
+          "chars_shown": 4930,
+          "range_chars": 4930,
+          "truncated": false
+        },
+        {
+          "start_line": 3541,
+          "end_line": 3577,
+          "chars_shown": 2600,
+          "range_chars": 14369,
+          "truncated": true
+        },
+        {
+          "start_line": 3653,
+          "end_line": 3683,
+          "chars_shown": 2800,
+          "range_chars": 12513,
+          "truncated": true
+        },
+        {
+          "start_line": 3864,
+          "end_line": 3887,
+          "chars_shown": 2500,
+          "range_chars": 10920,
+          "truncated": true
+        },
+        {
+          "start_line": 4330,
+          "end_line": 4380,
+          "chars_shown": 5000,
+          "range_chars": 8886,
+          "truncated": true
+        },
+        {
+          "start_line": 4450,
+          "end_line": 4500,
+          "chars_shown": 4000,
+          "range_chars": 9409,
+          "truncated": true
+        },
+        {
+          "start_line": 4567,
+          "end_line": 4603,
+          "chars_shown": 5500,
+          "range_chars": 15801,
+          "truncated": true
+        },
+        {
+          "start_line": 4637,
+          "end_line": 4657,
+          "chars_shown": 2400,
+          "range_chars": 6254,
+          "truncated": true
+        },
+        {
+          "start_line": 5370,
+          "end_line": 5400,
+          "chars_shown": 2800,
+          "range_chars": 8567,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "filename": "Argumentation-Schemes-Douglas-Walton-Professor-Christopher-Reed-etc-z-librarysk-.md",
+      "logged_characters_shown": 53866,
+      "slices": [
+        {
+          "start_line": 5950,
+          "end_line": 5990,
+          "chars_shown": 1111,
+          "range_chars": 1111,
+          "truncated": false
+        },
+        {
+          "start_line": 10555,
+          "end_line": 10665,
+          "chars_shown": 7200,
+          "range_chars": 10619,
+          "truncated": true
+        },
+        {
+          "start_line": 11080,
+          "end_line": 11168,
+          "chars_shown": 5000,
+          "range_chars": 5799,
+          "truncated": true
+        },
+        {
+          "start_line": 10665,
+          "end_line": 10765,
+          "chars_shown": 5431,
+          "range_chars": 5431,
+          "truncated": false
+        },
+        {
+          "start_line": 10830,
+          "end_line": 10955,
+          "chars_shown": 4814,
+          "range_chars": 4814,
+          "truncated": false
+        },
+        {
+          "start_line": 11200,
+          "end_line": 11320,
+          "chars_shown": 5300,
+          "range_chars": 6207,
+          "truncated": true
+        },
+        {
+          "start_line": 12320,
+          "end_line": 12365,
+          "chars_shown": 3200,
+          "range_chars": 9291,
+          "truncated": true
+        },
+        {
+          "start_line": 9400,
+          "end_line": 9430,
+          "chars_shown": 1600,
+          "range_chars": 6835,
+          "truncated": true
+        },
+        {
+          "start_line": 10610,
+          "end_line": 10664,
+          "chars_shown": 2916,
+          "range_chars": 2916,
+          "truncated": false
+        },
+        {
+          "start_line": 10802,
+          "end_line": 10829,
+          "chars_shown": 1417,
+          "range_chars": 1417,
+          "truncated": false
+        },
+        {
+          "start_line": 10958,
+          "end_line": 11030,
+          "chars_shown": 3200,
+          "range_chars": 3679,
+          "truncated": true
+        },
+        {
+          "start_line": 11320,
+          "end_line": 11375,
+          "chars_shown": 2702,
+          "range_chars": 2702,
+          "truncated": false
+        },
+        {
+          "start_line": 6190,
+          "end_line": 6215,
+          "chars_shown": 2300,
+          "range_chars": 7847,
+          "truncated": true
+        },
+        {
+          "start_line": 8810,
+          "end_line": 8840,
+          "chars_shown": 2100,
+          "range_chars": 7015,
+          "truncated": true
+        },
+        {
+          "start_line": 5930,
+          "end_line": 5950,
+          "chars_shown": 423,
+          "range_chars": 423,
+          "truncated": false
+        },
+        {
+          "start_line": 11376,
+          "end_line": 11422,
+          "chars_shown": 2563,
+          "range_chars": 2563,
+          "truncated": false
+        },
+        {
+          "start_line": 8940,
+          "end_line": 8965,
+          "chars_shown": 2589,
+          "range_chars": 2589,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "filename": "Analysis-of-evidence-Terence-Anderson-David-Schum-etc.md",
+      "logged_characters_shown": 71597,
+      "slices": [
+        {
+          "start_line": 13882,
+          "end_line": 13904,
+          "chars_shown": 1040,
+          "range_chars": 1040,
+          "truncated": false
+        },
+        {
+          "start_line": 15841,
+          "end_line": 15960,
+          "chars_shown": 10000,
+          "range_chars": 35397,
+          "truncated": true
+        },
+        {
+          "start_line": 15903,
+          "end_line": 15960,
+          "chars_shown": 7600,
+          "range_chars": 19960,
+          "truncated": true
+        },
+        {
+          "start_line": 15039,
+          "end_line": 15160,
+          "chars_shown": 7000,
+          "range_chars": 35400,
+          "truncated": true
+        },
+        {
+          "start_line": 15479,
+          "end_line": 15565,
+          "chars_shown": 4500,
+          "range_chars": 13223,
+          "truncated": true
+        },
+        {
+          "start_line": 17600,
+          "end_line": 17630,
+          "chars_shown": 4000,
+          "range_chars": 6801,
+          "truncated": true
+        },
+        {
+          "start_line": 17853,
+          "end_line": 17880,
+          "chars_shown": 4500,
+          "range_chars": 5518,
+          "truncated": true
+        },
+        {
+          "start_line": 15111,
+          "end_line": 15124,
+          "chars_shown": 5280,
+          "range_chars": 5280,
+          "truncated": false
+        },
+        {
+          "start_line": 15662,
+          "end_line": 15698,
+          "chars_shown": 4177,
+          "range_chars": 4177,
+          "truncated": false
+        },
+        {
+          "start_line": 15942,
+          "end_line": 15959,
+          "chars_shown": 5300,
+          "range_chars": 6703,
+          "truncated": true
+        },
+        {
+          "start_line": 17503,
+          "end_line": 17548,
+          "chars_shown": 6500,
+          "range_chars": 15726,
+          "truncated": true
+        },
+        {
+          "start_line": 17548,
+          "end_line": 17590,
+          "chars_shown": 2700,
+          "range_chars": 14695,
+          "truncated": true
+        },
+        {
+          "start_line": 17570,
+          "end_line": 17590,
+          "chars_shown": 4500,
+          "range_chars": 6772,
+          "truncated": true
+        },
+        {
+          "start_line": 15877,
+          "end_line": 15902,
+          "chars_shown": 4500,
+          "range_chars": 5226,
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "filename": "Logical-tools-for-modelling-legal-argument-a-study-of-defeasible-reasoning-in-la.md",
+      "logged_characters_shown": 39000,
+      "slices": [
+        {
+          "start_line": 28214,
+          "end_line": 28345,
+          "chars_shown": 7500,
+          "range_chars": 8961,
+          "truncated": true
+        },
+        {
+          "start_line": 25217,
+          "end_line": 25255,
+          "chars_shown": 2200,
+          "range_chars": 2438,
+          "truncated": true
+        },
+        {
+          "start_line": 28370,
+          "end_line": 28413,
+          "chars_shown": 2157,
+          "range_chars": 2157,
+          "truncated": false
+        },
+        {
+          "start_line": 28490,
+          "end_line": 28555,
+          "chars_shown": 3854,
+          "range_chars": 3854,
+          "truncated": false
+        },
+        {
+          "start_line": 29836,
+          "end_line": 29912,
+          "chars_shown": 4289,
+          "range_chars": 4289,
+          "truncated": false
+        },
+        {
+          "start_line": 30190,
+          "end_line": 30330,
+          "chars_shown": 6000,
+          "range_chars": 9343,
+          "truncated": true
+        },
+        {
+          "start_line": 33674,
+          "end_line": 33799,
+          "chars_shown": 7500,
+          "range_chars": 8523,
+          "truncated": true
+        },
+        {
+          "start_line": 33798,
+          "end_line": 33900,
+          "chars_shown": 5500,
+          "range_chars": 6232,
+          "truncated": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> This is the four-source baseline coverage record. The current nine-source library adds five verified books and excludes one mismatched submission; see [expansion-coverage.md](expansion-coverage.md) and the updated [source manifest](source-manifest.json). Earlier corpus line locators below refer only to the original extraction batch.
+
 # Source, coverage, and fidelity ledger
 
 Build date: 2026-09-11. Purpose: rebuild the existing legal-reasoning-advisor as an expert for live diagnosis and development of legal arguments. Architecture: existing root `SKILL.md`, task-loaded modules, optional digest procedure, and discovery alias retained. This is an existing-repository rebuild under books-to-skill-refs' adaptation rule, not a new library forced into its default naming convention.

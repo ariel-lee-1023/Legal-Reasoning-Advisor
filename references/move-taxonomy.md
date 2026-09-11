@@ -1,6 +1,6 @@
 # Move Taxonomy — diagnosing the steps that support a legal conclusion
 
-**Status:** This repository's diagnostic synthesis, informed by Hohfeld's distinctions, Coke's legal practice, and Duxbury's treatment of precedent. The four-move taxonomy and procedures below are not a framework named by any of those authors. All scenarios in this module are constructed examples with stipulated premises, not statements of current law.
+**Status:** This repository's diagnostic synthesis, integrating MacCormick's legal justification, Toulmin's argument layout, Walton–Reed–Macagno's schemes, Anderson–Schum–Twining's evidence analysis, and Prakken's defeasible argumentation with Hohfeld, Duxbury, and historical Coke. The four-move taxonomy and procedures below are not a single framework named by any of those authors. The procedures connect their contributions without claiming that their theories of logic, analogy, probability, or authority are identical. All scenarios in this module are constructed examples with stipulated premises, not statements of current law.
 
 ## Start with the result the argument needs
 
@@ -35,7 +35,7 @@ If the conclusion rests on A **and** B, disproving either may defeat that route.
 
 Distinguish what a party alleges, what a document records, what a court assumes for a particular motion, what it finds, and what is inferred. An assumed factual premise for a dismissal motion is not a finding after trial. “The record proves” requires a source and the relevant standard; procedural burdens and review standards are jurisdiction-specific.
 
-Use Hohfeld's [operative/evidential distinction](hohfeld-toolkit.md): an authenticated paper today may support the occurrence of a legally operative delivery months ago without proving it. A negative condition such as absence of revocation needs attention, but its conceptual role does not itself allocate the burden of proof.
+Use [Analysis of Evidence](reference-analysis-of-evidence.md) to identify ultimate, penultimate, and interim probanda, source reports, inference warrants, dependence, opposing explanations, and the applicable proof standard. Use Hohfeld's [operative/evidential distinction](hohfeld-toolkit.md): an authenticated paper today may support the occurrence of a legally operative delivery months ago without proving it. A negative condition such as absence of revocation needs attention, but its conceptual role does not itself allocate the burden of proof.
 
 Counterfactual: grant the disputed fact temporarily. If the result still does not follow, more evidence of that fact will not repair the legal gap. Conversely, if the rule is clear and only an operative event is uncertain, do not manufacture a doctrinal dispute.
 
@@ -45,7 +45,7 @@ Locate the source that gives the category legal work. An enacted definition may 
 
 Compare materially relevant settings, including counterexamples. Explain why a difference matters to the legal rationale or text. A new device, person, or fact pattern may fall under an existing rule without being a discretionary extension of law. Identify novelty in the legally relevant dimension rather than in surface details.
 
-For a statute, use the applicable interpretive law and examine text, related provisions, scope, exceptions, and remedial structure. [Coke's Reports](common-law-method.md) supply whole-text and mischief-based examples; they do not establish a universal priority between present interpretive approaches. An enacted definition cannot be dismissed because it lacks a factual twin in case law.
+For a statute, use the applicable interpretive law and examine text, related provisions, scope, exceptions, and remedial structure. [MacCormick](reference-maccormick-rhetoric.md) distinguishes linguistic, systemic, and teleological-evaluative arguments and tests their legal justification. [Coke's Reports](common-law-method.md) supply historical whole-text and mischief-based examples; they do not establish a universal priority between present interpretive approaches. An enacted definition cannot be dismissed because it lacks a factual twin in case law.
 
 For a relation, fix holder, counterpart, conduct/change, time, and condition. Determine whether the argument moves from privilege to claim, duty to disability, liability to existing duty, or trigger to completed legal change. Hohfeld can expose that missing step without proving which substantive rule should supply it.
 
@@ -64,6 +64,46 @@ Identify whose value is at stake, the causal mechanism linking the proposed rule
 Distinguish explaining why an established doctrine takes its form, interpreting an open standard, choosing between permitted applications, proposing an extension, and urging legal reform. The same consideration can legitimately have different weight in these tasks. State which is being done.
 
 Investigate competence: a court's power to distinguish or overrule, an official's statutory grant, or an institution's authority to change its practice. Desirability does not cure a missing source of power. [Coke on Littleton](reference-coke-institutes.md) also shows why powers, triggers, and remedies must be located within a sequence.
+
+## An inspectable analysis across methods
+
+Use this sequence when a mixed argument needs sustained analysis. The order can be revisited; the evidence and legal interpretations constrain one another.
+
+| Operation | Inspectable product | Source method and handoff |
+|---|---|---|
+| Fix the question | Precise claim, actor, time, remedy, record and procedural standpoint | MacCormick's legal conditional; Anderson–Schum–Twining's standpoint |
+| Reconstruct the route | Grounds, claim, warrant, backing, qualifier, possible rebuttal; stated versus reconstructed premises | [Toulmin](reference-toulmin-uses-of-argument.md); do not treat a reconstruction as supplied law |
+| Establish the factual step | Source items, reported events, interim and material facts, generalizations, opposing support and dependencies | [Analysis of Evidence](reference-analysis-of-evidence.md); legal elements determine what is material |
+| Justify the legal step | Applicable rule and supported interpretation/classification/relevancy; exact relation and remedy | MacCormick; Hohfeld for relational ambiguity; Duxbury for precedent's contribution and force |
+| Challenge the inference | Scheme-specific objection, its precise target and support, best answer, effect | [Argumentation Schemes](reference-argumentation-schemes.md); unanswered questions and established exceptions differ |
+| Revise the assessment | Changed input, affected arguments and attacks, reinstatement, remaining routes, conclusion status | [Prakken](reference-prakken-defeasible-argument.md); informal method, not a formal proof engine |
+| Test the boundary | One material variation, one irrelevant variation, and the reason for changed or stable treatment | MacCormick's universalization and Walton's comparison questions; no HYPO implementation claimed |
+
+For a short question, perform only the steps that matter and answer directly. For a complex record, useful proposition statuses are **supplied assertion**, **stipulated**, **finding for this purpose**, **inferred**, **reconstructed**, and **unverified**. These are local tracking labels, not an authorial taxonomy or substitutes for an actual legal standard.
+
+A compact route record can state: `A1: E1 -> F1; F1 + R1 -> C, unless X1`. Explain the provenance of E1, the warrant for each arrow, and whether R1 is supplied or reconstructed. An objection record can state: `O1 targets the E1-to-F1 inference; supported by S2; reply R2 answers only the timing issue; provenance remains unresolved`. Expand prose rather than forcing notation on the user.
+
+## Integrated demonstration: three witnesses and late notice
+
+**User-proposed constructed argument:** “Three witnesses say the notice arrived late, so the termination was invalid.” This demonstration is a training example, not an unfamiliar evaluation item. No real termination rule is assumed.
+
+**Evidence:** record what each witness actually observed and when. If two repeat the first witness, there are three reports but one originating observation. If all saw an envelope later, identify the missing step from seeing it then to determining when it arrived. A contemporaneous delivery record could bear on arrival; a record of dispatch answers a different question.
+
+**Warrant:** reconstruct, and label as reconstructed, a rule connecting late arrival to invalidity. Which event counts as notice, which deadline applies, and whether breach invalidates termination require their own legal premises. Granting late arrival temporarily reveals whether the legal gap remains.
+
+**Justification:** inspect the supplied governing text, conditions, exceptions, and remedy. Interpretation, factual proof, and classification of the notice are distinct. If no law is supplied or verified, the proper conclusion is conditional; a witness count cannot fill the gap.
+
+**Focused objection:** a challenge to independence targets corroborative strength. A challenge to the counted event targets the evidence-to-fact bridge. A challenge to invalidity targets legal effect. State the strongest supported reply to each rather than leaving all doubts as permanent boilerplate.
+
+**Stipulated update:** now suppose a fictional supplied rule makes late notice a ground of invalidity, an emergency consent blocks that ground, and missing panel authorization independently invalidates termination. Authentic consent defeats the late-notice route, but invalidity survives if missing authorization is established. If that second ground is merely alleged, the result becomes conditional rather than established. If consent is later shown forged under a supplied rule rejecting forged consent, reconsider reinstatement of the original route.
+
+**What to obtain next:** identify the evidence or authority with the greatest effect on the remaining uncertainty—original witness bases, a reliable arrival record, the governing notice-and-remedy provision, or the authorization record. Prioritize according to the actual remaining route. Do not ask for more arrival witnesses when invalidity turns on a separate, settled lack of authorization.
+
+## Revision record and stopping rule
+
+For a material update, retain the old assessment, identify the new input, name affected premises and inferences, examine attacks on attacks, reassess independent routes and shared vulnerabilities, then state the new conclusion. Distinguish withdrawal of support from proof of the contrary. If unresolved branches share a result, state why those branches exhaust the supplied possibilities and what remains unresolved within them.
+
+Stop when the material supported objections have answers or explicit unresolved conditions and the next useful action is clear. A review of a finite supplied record does not establish exhaustive coverage of all possible legal arguments. Where the stipulated premises establish the result, say so; do not add speculative uncertainties that the problem has already settled.
 
 ## Worked diagnoses
 

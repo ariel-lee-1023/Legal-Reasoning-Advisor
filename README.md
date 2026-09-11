@@ -1,6 +1,6 @@
 # Legal Reasoning Advisor
 
-An expert Agent Skill for developing and testing legal arguments. It connects evidence and operative facts to legal relations, authoritative sources, institutional powers, and remedies, then identifies what supports the proposed result and what would change the assessment.
+An expert Agent Skill for developing and testing legal arguments. It connects evidence and operative facts to legal relations, authoritative sources, institutional powers, and remedies, then reconstructs the warrant, traces evidential support, tests focused objections, and revises the result when facts, exceptions, or argument priorities change.
 
 The central task is **live reasoning inside an argument**: improving a brief, assessing a judgment, resolving a statutory puzzle, explaining a relation, or building the strongest counterargument. A full case digest is an optional tool.
 
@@ -11,9 +11,14 @@ The central task is **live reasoning inside an argument**: improving a brief, as
 - Tests statutory definitions and instrument effects alongside cases and legally relevant comparisons.
 - Assesses a precedent's proposition, scope, hierarchy, reasons, and available routes of departure without treating it as either mechanical or optional.
 - Preserves alternative sufficient grounds and issue-specific opinion alignments instead of forcing every argument to have one weak premise or every case one ratio.
-- Delivers a conclusion, a supported objection, and the next useful revision or verification step.
+- Separates the validity of an inference from the justification of its legal and factual premises.
+- Uses grounds, warrant, backing, qualifier, and rebuttal conditions while marking reconstructed premises and proposed repairs.
+- Builds evidence-to-fact chains, tests witness dependence and rival explanations, and distinguishes relevance, credibility, probative force, admissibility, and sufficiency.
+- Uses scheme-specific critical questions and records whether a supported reply answers an objection.
+- Tracks undercutting, rebuttal, priority, reinstatement, and alternative routes when information changes.
+- Delivers a conclusion, a supported objection, and a discriminating next fact, source, or revision.
 
-The four-move taxonomy—factual, interpretive/classificatory, precedent application, and policy/normative—is this repository's synthesis. It is a diagnostic aid, not a claimed framework from Coke, Hohfeld, or Duxbury.
+The four-move taxonomy—factual, interpretive/classificatory, precedent application, and policy/normative—is this repository's synthesis. It is a diagnostic aid, not a single framework attributed to any source author. MacCormick provides the organizing distinction between inferential structure and justified legal premises. The other sources supply specialist operations; their theoretical disagreements are preserved.
 
 ## Examples
 
@@ -43,6 +48,13 @@ Other useful requests include improving an argument paragraph, comparing candida
 | Sir Edward Coke, *The First Part of the Institutes of the Laws of England; or, A Commentary upon Littleton*, eighteenth edition (1823), Legal Classics Library reprint (1985) | **Volume II**, beginning with Littleton's Book III; 790 PDF pages | Thirteen-chapter methodological coverage: title, conditions, release, confirmation, attornment, discontinuance, remitter, warranty |
 | Sir Edward Coke, *The Selected Writings and Speeches of Sir Edward Coke*, ed. Steve Sheppard (Liberty Fund, 2003) | **Volume One**; 620 PDF pages, selected Reports and prefaces | Selected passages on reporting, interpretation, discretion, legal competence, and the limits of authority |
 | Neil Duxbury, *The Nature and Authority of Precedent* (Cambridge University Press, 2008) | Markdown transcription; all five main chapters represented | Formation and authority of precedent, ratio tests and their limits, distinctions, overruling, self-binding, consequential and deontological arguments |
+| Neil MacCormick, *Rhetoric and the Rule of Law* (2005) | Markdown; thirteen-chapter structure, selective operational depth | Legal syllogism, justification of premises, universalization, interpretation, coherence, consequences, defeasibility |
+| Stephen Toulmin, *The Uses of Argument*, updated edition (2003) | Markdown; five essays represented | Warrants and backing, qualifications, rebuttal, field-specific standards, time-sensitive assessment |
+| Douglas Walton, Chris Reed, Fabrizio Macagno, *Argumentation Schemes* (2008) | OCR-damaged Markdown; twelve chapters, selected schemes with exclusions recorded | Focused critical questions, faithful enthymeme reconstruction, objection types and burdens |
+| Terence Anderson, David Schum, William Twining, *Analysis of Evidence*, second edition (2005) | Markdown; twelve chapters, selected methods and examples | E*/E, probanda, seven-step chart protocol, credibility, rival stories, evidence combinations and weight |
+| Henry Prakken, *Logical Tools for Modelling Legal Argument* (1997) | OCR-damaged Markdown; eleven chapters, prose-confirmed methods | Defeat, reinstatement, argued priorities, argument/conclusion status, alternative consequence notions and revision |
+
+**Ashley source pending:** the sixth new file is named for *Modeling Legal Argument*, but its title and body contain a different book about probabilistic similarity networks and Pathfinder. Its neighboring PDF has the same mismatch. It is excluded from the nine verified sources. No Ashley/HYPO distillation or implementation is claimed; a correct source is still needed. The proposed separate comparative statutory-interpretation volume is also a future extension, not part of this build.
 
 The filenames overstate the Coke volumes available. The Institutes file is not both volumes; the Selected Writings file's collection-wide contents list does not mean the later volumes are included. The rebuild records those limits and separates Littleton, Coke, later editorial notes, and Sheppard's introductions.
 
@@ -59,7 +71,12 @@ legal-reasoning-advisor/
 │   ├── reference-coke-institutes.md  # Coke on Littleton, Volume II
 │   ├── hohfeld-toolkit.md            # Hohfeld: 1913 article
 │   ├── precedent-method.md           # Duxbury: five chapters
-│   └── precedent-extraction.md       # optional digest procedure
+│   ├── precedent-extraction.md       # optional digest procedure
+│   ├── reference-maccormick-rhetoric.md
+│   ├── reference-toulmin-uses-of-argument.md
+│   ├── reference-argumentation-schemes.md
+│   ├── reference-analysis-of-evidence.md
+│   └── reference-prakken-defeasible-argument.md
 ├── .agents/skills/legal-reasoning-advisor -> ../..
 ├── AGENTS.md
 ├── fidelity-ledger/                 # maintainer records, not domain-answer modules
@@ -70,7 +87,7 @@ legal-reasoning-advisor/
 └── .gitignore
 ```
 
-There is one canonical root skill and one canonical set of references. The discovery symlink resolves to the repository root. The books-to-skill-refs rebuild follows this repository's existing architecture and preserves all five original module paths; the additional Institutes module gives the fourth supplied source its own reference. It deliberately does not rename the existing modules into the metatool's default generated naming scheme.
+There is one canonical root skill and one canonical set of references. The discovery symlink resolves to the repository root. The books-to-skill-refs rebuild follows this repository's existing architecture and preserves all five original module paths; the Institutes module and five new source modules each have their own reference. The current expansion preserves the four earlier source modules unchanged and gives Coke a focused historical-method role. It deliberately does not rename the existing modules into the metatool's default generated naming scheme.
 
 A consultation loads the core, then only the module or small combination relevant to the problem. Maintainer records are not included in the task-triggered loading table. Routine advice does not require a full case note, relation table, or bibliography.
 
@@ -81,12 +98,12 @@ Open the repository as an agent project; [AGENTS.md](AGENTS.md) directs domain q
 For a personal skill installation, clone the **whole repository**, including `references/`, into the host's supported skill directory. Examples:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/legal-reasoning-advisor.git \
+git clone https://github.com/ariel-lee-1023/Legal-Reasoning-Advisor.git \
   ~/.agents/skills/legal-reasoning-advisor
 ```
 
 ```bash
-git clone https://github.com/ariel-lee-1023/legal-reasoning-advisor.git \
+git clone https://github.com/ariel-lee-1023/Legal-Reasoning-Advisor.git \
   ~/.claude/skills/legal-reasoning-advisor
 ```
 
@@ -102,15 +119,15 @@ The optional JSON record is now version `2.0`; see [Precedent Extraction](refere
 
 ## Maintenance and validation
 
-The rebuild uses books-to-skill-refs extraction, targeted reading, source-level budgets, source-boundary discipline, coverage accounting, and instruction scanning. The ledger distinguishes structural checks from editorial assessment; it does not claim an independent model benchmark.
+The rebuild uses books-to-skill-refs extraction, targeted reading, source-level budgets, source-boundary discipline, coverage accounting, and instruction scanning. The ledger distinguishes structural checks, same-author editorial assessment, and behavioral testing. **Independent behavioral testing has not been run, so improved reliability is not established.** Twelve two-round development probes and a blinded baseline/candidate exporter are provided; source coverage and an executable test package do not substitute for model responses and independent grades.
 
-From a checkout of Books-to-Skill-Refs, run its published-repository validator against this repository. Existing module names generate documented compatibility warnings. The supplementary checker validates **all four source modules**, the two synthesis modules' routing, relative links, discovery alias, source manifest, and JSON example:
+From a checkout of Books-to-Skill-Refs, run its published-repository validator against this repository. Existing module names generate documented compatibility warnings. The supplementary checker validates **all nine source modules**, the two synthesis modules' routing, relative links, discovery alias, source manifest, and JSON example:
 
 ```bash
 python3 fidelity-ledger/validate.py --metatool /path/to/Books-to-Skill-Refs
 ```
 
-See [validation.json](fidelity-ledger/validation.json), [evaluation.md](fidelity-ledger/evaluation.md), and the separate runtime scan reports for the recorded run. Preserve source authorship, scope, existing paths, and the distinction between runtime content and maintainer records when extending the advisor. Add a worked regression case whenever changing a substantive reasoning commitment.
+See [validation.json](fidelity-ledger/validation.json), the [expansion coverage](fidelity-ledger/expansion-coverage.md), the [evaluation protocol and current status](fidelity-ledger/expansion-evaluation.md), and the separate runtime scan reports. The [earlier editorial review](fidelity-ledger/evaluation.md) remains a baseline record. To prepare an external comparison, run `python3 fidelity-ledger/prepare_behavioral_eval.py --output /tmp/legal-advisor-eval` from this repository; this exports inputs and makes no model calls. Preserve source authorship, scope, existing paths, and the distinction between runtime content and maintainer records when extending the advisor. Add a worked regression case whenever changing a substantive reasoning commitment.
 
 ## License
 
