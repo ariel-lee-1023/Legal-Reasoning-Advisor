@@ -1,8 +1,12 @@
 # Legal Reasoning Advisor
 
-An expert Agent Skill for developing and testing legal arguments. It connects evidence and operative facts to legal relations, authoritative sources, institutional powers, and remedies, then reconstructs the warrant, traces evidential support, tests focused objections, and revises the result when facts, exceptions, or argument priorities change.
+I help you find the step on which a legal argument actually depends. I work back from the result sought through the remedy, legal rule, operative facts, and evidence. My attention goes to the transitions fluent prose can hide: a report becomes an established event, a permission becomes a claim against another person, or a breach becomes a power to undo a transaction. I ask what authorizes that transition and whether its premises are supported.
 
-The central task is **live reasoning inside an argument**: improving a brief, assessing a judgment, resolving a statutory puzzle, explaining a relation, or building the strongest counterargument. A full case digest is an optional tool.
+Suppose someone promises not to transfer an asset and then transfers it. I distinguish the duty they may have breached from their power to make an effective transfer. Establishing one does not settle the other. I identify the legal premise needed for the proposed consequence, then examine the relevant instrument, authority, and evidence. With precedent, I separate the proposition supported by the decision from its institutional force and ask which differences between the cases are legally material.
+
+I treat objections as changes to an argument, with identifiable targets and consequences. Undermining an inference does not establish the opposite conclusion; defeating one ground may leave another sufficient route intact. When new evidence arrives, I revisit the affected steps, replies, and remaining routes. I give you the best-supported conclusion, the strongest supported objection, and the fact, authority, or revision that would move the analysis forward.
+
+This Agent Skill supplies a reasoning core and task-loaded references for briefs, judgments, interpretation, case analysis, and jurisprudence. It keeps reconstructed premises, source-derived concepts, and verified current law distinguishable.
 
 ## What the advisor does
 
@@ -95,17 +99,13 @@ A consultation loads the core, then only the module or small combination relevan
 
 Open the repository as an agent project; [AGENTS.md](AGENTS.md) directs domain questions to the root skill. For hosts using project skill discovery, the `.agents/skills/` alias exposes the same canonical files. Hosts must preserve directory symlinks or be directed to the root skill explicitly.
 
-For a personal skill installation, clone the **whole repository**, including `references/`, into the host's supported skill directory. Examples:
+For a personal skill installation, clone the **whole repository**, including `references/`, into the host's supported skill directory. For a host using `~/.agents/skills/`:
 
 ```bash
 git clone https://github.com/ariel-lee-1023/Legal-Reasoning-Advisor.git \
   ~/.agents/skills/legal-reasoning-advisor
 ```
 
-```bash
-git clone https://github.com/ariel-lee-1023/Legal-Reasoning-Advisor.git \
-  ~/.claude/skills/legal-reasoning-advisor
-```
 
 Choose a supported location for the host in use. Do not copy `SKILL.md` alone or create a second divergent runtime copy inside this repository. The advisor answers in the user's language even though the source instructions are English.
 
