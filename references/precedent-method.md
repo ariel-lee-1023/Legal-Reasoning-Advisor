@@ -28,7 +28,7 @@ Locations below use the book's printed pagination and chapter titles; the conver
 
 ### 2. Why does English law have a doctrine of precedent? — pp. 31–57
 
-**Common law before stare decisis.** Duxbury distinguishes a system reasoning through professional learning and past materials from a developed doctrine of binding precedent. Medieval and early modern practices cannot simply be assigned a modern hierarchy of holdings. The existence of case law is not sufficient evidence for the later doctrine.
+**Common law before stare decisis.** A system reasoning through professional learning and past materials differs from a developed doctrine of binding precedent. Medieval and early modern practices cannot simply be assigned a modern hierarchy of holdings. The existence of case law is not sufficient evidence for the later doctrine.
 
 **Records, reports, abridgements, and citation.** More accessible and identifiable reports make individual decisions easier to use as authority. Changes in reporting, reference practices, and judicial organization help explain doctrinal development; they do not reduce it to a single date or technological cause. A report's availability and reliability are practical conditions for accurate use.
 
@@ -62,7 +62,7 @@ Do not collapse these. A well-reasoned case can be useful without controlling; a
 
 **Wambaugh's inversion test.** Invert a proposed rule and ask whether the decision would have changed. Use the test to expose overbroad or irrelevant formulations. Its failure on alternative sufficient grounds, multiple issues, and contested formulations means it cannot certify a ratio by itself.
 
-**Goodhart's material-facts-and-decision approach.** Duxbury traces Goodhart's movement toward the facts the court treated as material and the conclusion reached on them, distinguishing this from treating every historical detail as relevant or equating ratio with all stated reasons. Use the approach to check an asserted holding against facts and disposition; do not adopt the inference that the judges' reasoning is irrelevant. Duxbury examines the objections rather than delivering an infallible recipe.
+**Goodhart's material-facts-and-decision approach.** The approach focuses on facts the court treated as material and the conclusion reached on them; it neither makes every historical detail relevant nor equates ratio with all stated reasons. Use the approach to check an asserted holding against facts and disposition; do not adopt the inference that the judges' reasoning is irrelevant. The objections remain material; this is not an infallible recipe.
 
 **Montrose and further reconstruction.** Efforts to integrate facts and reasons correct overly simple tests, but elaborate symbolic notation can increase the reader's burden without resolving the interpretive problem. Use a compact proposition map if needed; do not force all possible absent facts into a formal representation.
 
@@ -80,7 +80,7 @@ Do not collapse these. A well-reasoned case can be useful without controlling; a
 
 #### Pre-emptive precedent? — pp. 99–110
 
-**First-order / second-order reasons.** A reason favoring a result differs from an authoritative reason restricting consideration of other reasons. Duxbury examines Hart's peremptory reasons and Raz's exclusionary reasons to explain why judicial disagreement on the merits need not authorize departure.
+**First-order / second-order reasons.** A reason favoring a result differs from an authoritative reason restricting consideration of other reasons. Hart's peremptory reasons and Raz's exclusionary reasons explain why judicial disagreement on the merits need not authorize departure [as examined in this source].
 
 **Revisability limits the model.** Distinguishing and overruling make precedent less like a fixed verbal directive than a fully exclusionary account suggests. But criticising that account does not remove institutional constraints. The relevant inquiry remains what this court can do with this authority under the applicable practice.
 
@@ -98,7 +98,7 @@ Do not collapse these. A well-reasoned case can be useful without controlling; a
 
 **Limited correction.** Error, injustice, changing conditions, reliance, and costs of transition can bear on reconsideration where the institution permits it. If judges could replace precedent whenever their balance of reasons favored doing so, the constraint would disappear. The quality of an objection and the authority to act on it are independent questions.
 
-**Self-binding and self-liberation.** Duxbury examines the House of Lords' earlier self-binding and the 1966 Practice Statement as changes in institutional practice. The statement's visibility helps explain how it established a durable public commitment to qualified departure. This is historical analysis, not a statement of every court's present rules.
+**Self-binding and self-liberation.** The House of Lords' earlier self-binding and the 1966 Practice Statement mark changes in institutional practice. The statement's visibility helps explain how it established a durable public commitment to qualified departure. This is historical analysis, not a statement of every court's present rules.
 
 **Constitutional propriety / logical self-reference.** Whether a court has authority to alter its practice is not settled by treating that change as an ordinary precedent which contradicts its own binding rule. Duxbury criticizes attempts to invalidate the Practice Statement through a liar-paradox analogy. Institutional authority and adoption matter; logical ingenuity alone cannot supply a doctrine of invalidity.
 

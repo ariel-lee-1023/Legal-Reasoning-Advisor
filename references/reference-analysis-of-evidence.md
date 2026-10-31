@@ -34,7 +34,7 @@ The exercises expose the distance between a plausible account and justified proo
 
 ### 3. Principles of Proof — pp. 78–111
 
-The **Rationalist Tradition** makes factual accuracy, reasoned inference, and justified decision central while recognizing institutional constraints. The book uses that tradition as an analytical foundation; it does not eliminate disputes over its assumptions or the values served by procedure.
+The **Rationalist Tradition** makes factual accuracy, reasoned inference, and justified decision central while recognizing institutional constraints. This analytical foundation does not eliminate disputes over its assumptions or the values served by procedure.
 
 **Probative processes:**
 
@@ -56,7 +56,7 @@ The **Rationalist Tradition** makes factual accuracy, reasoned inference, and ju
 
 ### 4. Methods of Analysis — pp. 112–122
 
-The book distinguishes charts, outlines, and narrative methods with complementary devices. Choose based on the analytical problem. An outline may suffice for a small argument; a chart helps when dependencies and opposition become hard to track; a chronology aligns times without proving causation.
+Charts, outlines, and narrative methods have distinct roles and complementary devices. Choose based on the analytical problem. An outline may suffice for a small argument; a chart helps when dependencies and opposition become hard to track; a chronology aligns times without proving causation.
 
 The seven-step protocol provides a revisable discipline, not a one-pass algorithm. Change a provisional theory when the evidence or the governing interpretation changes. The objective is a better analysis, not completion of a form.
 

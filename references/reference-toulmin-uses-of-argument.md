@@ -22,7 +22,7 @@ The familiar layout is only part of this book. Toulmin also investigates how sta
 
 ### II. Probability — pp. 41–86
 
-Toulmin examines the use of “probably” alongside “I know” and “I promise,” and distinguishes mistakes from improper assertions. A well-grounded prediction can later prove wrong. An unsupported prediction can turn out right. Evaluating an argument at the time it was made differs from checking the eventual event.
+“Probably,” “I know,” and “I promise” have different uses; mistakes differ from improper assertions. A well-grounded prediction can later prove wrong. An unsupported prediction can turn out right. Evaluating an argument at the time it was made differs from checking the eventual event.
 
 **Gardening example, pp. 53–55.** A neighbor's advice for failing gentians can be criticized because the treatment failed, because the neighbor lacked relevant expertise, or because the inquiry was deficient—for example, failing to examine relevant soil conditions. These criticisms address different things. The plants' subsequent condition does not by itself establish which initial defect existed.
 
@@ -91,7 +91,7 @@ Toulmin relates philosophical problems about induction, intuition, and knowledge
 
 ### Source example reconstructed: Harry's nationality — pp. 93–98
 
-Toulmin uses birthplace in Bermuda as the datum, presumed British nationality as the qualified claim, a nationality warrant as the bridge, the relevant legislation as backing, and specified parentage or later nationality changes as possible rebuttal conditions.
+In Harry's example, birthplace in Bermuda is the datum, presumed British nationality the qualified claim, a nationality warrant the bridge, the relevant legislation the backing, and specified parentage or later nationality changes possible rebuttal conditions.
 
 The instructional point is the division of functions. Birthplace evidence answers a different challenge from legislation; an exception about later naturalization can matter without disputing birthplace. The example's nationality assumptions are historical and schematic, not a rule for deciding any present person's citizenship.
 

@@ -32,7 +32,7 @@ An analogy starts with a comparison case and its treatment, then proposes simila
 
 ### 3. Knowledge-Related, Practical, and Other Schemes — pp. 87–120
 
-The book distinguishes knowledge-based inferences, practical reasoning, ignorance, consequences, fear and danger appeals, alternatives, help and excuses, composition/division, and slippery slopes. Diagnose the actual function before criticizing its surface form.
+Knowledge-based inferences, practical reasoning, ignorance, consequences, fear and danger appeals, alternatives, help and excuses, composition/division, and slippery slopes are distinct argument types. Diagnose the actual function before criticizing its surface form.
 
 **Practical reasoning** moves from goals and means to a proposed action. Test conflicting goals, feasible alternatives, comparative effectiveness, practical possibility, and side effects. “This action helps” does not establish “this is the only permissible action.” Value-based practical reasoning adds the relationship between goals, actions, and the values invoked.
 
@@ -72,7 +72,7 @@ For technical defeat and reinstatement, load [Prakken](reference-prakken-defeasi
 
 ### 8. The History of Schemes — pp. 275–307
 
-The authors trace connections to topics in Aristotle, Cicero, Boethius, medieval and Renaissance traditions, and modern argumentation theory. Their classification proposals address different levels: the type of conclusion, a scheme's support or refutation role, and its place in discourse. These are not one exhaustive mutually exclusive ontology.
+The historical connections extend to topics in Aristotle, Cicero, Boethius, medieval and Renaissance traditions, and modern argumentation theory. The classification proposals address different levels: the type of conclusion, a scheme's support or refutation role, and its place in discourse. These are not one exhaustive mutually exclusive ontology.
 
 **Use:** keep source, function, and logical form separate when comparing taxonomies. The historical genealogy is retained as a limit on claims of novelty and universality; this module does not reproduce the full history of topics or each historical taxonomy.
 

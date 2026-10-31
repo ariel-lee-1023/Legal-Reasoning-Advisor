@@ -18,7 +18,7 @@ MacCormick's organizing problem is how an arguable law can sustain the Rule of L
 
 ### 2. The Rule of Law and the Arguable Character of Law — pp. 12–31
 
-The two commonplaces are that people need law to guide conduct and that legal propositions can be argued over. MacCormick examines rhetorical and proceduralist approaches to their reconciliation. Legal argument is constrained by public reasons and institutional materials even where more than one position is initially plausible.
+The two commonplaces are that people need law to guide conduct and that legal propositions can be argued over. Rhetorical and proceduralist approaches offer accounts of their reconciliation. Legal argument is constrained by public reasons and institutional materials even where more than one position is initially plausible.
 
 **Use:** identify the reasonably settled starting points before opening contested ones. The existence of disagreement does not make every position equally supportable. Conversely, an authoritative outcome does not show that its reasons are beyond criticism. Fair procedures help secure legitimate decisions; assess the reasons themselves as well as the procedure.
 
@@ -34,7 +34,7 @@ The basic shape is: when the operative conditions hold, a normative consequence 
 4. Check that the claimed result has the same scope as the consequent. A power to award relief is not a duty to award a particular sum.
 5. Separately justify the conditional and its application. Writing it down has not established it.
 
-**Dignity Funerals illustration, ch. 3, pp. 32–33:** MacCormick distinguishes whether dismissal caused the relevant wage loss from what compensation would be just and equitable. A favorable causal finding opens a discretionary question; it does not calculate the award. This is the source of the two-stage diagnosis, not a present employment-law rule.
+**Dignity Funerals illustration, ch. 3, pp. 32–33:** Whether dismissal caused the relevant wage loss differs from what compensation would be just and equitable. A favorable causal finding opens a discretionary question; it does not calculate the award. This is the source of the two-stage diagnosis, not a present employment-law rule.
 
 ### 4. Defending Deductivism — pp. 49–77
 
@@ -66,7 +66,7 @@ In the book's discussion of *Dudley and Stephens*, the necessity defense is test
 
 ### 7. Arguing about Interpretation — pp. 121–142
 
-The book distinguishes **linguistic**, **systemic**, and **teleological-evaluative** arguments; intention can enter these in different senses rather than functioning as a self-explanatory fourth trump.
+**Linguistic**, **systemic**, and **teleological-evaluative** arguments differ; intention can enter these in different senses rather than functioning as a self-explanatory fourth trump.
 
 | Type | Operation | What could defeat it |
 |---|---|---|

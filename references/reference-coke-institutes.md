@@ -30,7 +30,7 @@ This is a selective methodological distillation of the thirteen chapters of Book
 
 ### 4. Of Tenants in Common — §292 onward
 
-**Several titles, common occupation.** Littleton's example has one joint tenant convey his interest to a third party. The remaining tenant and the alienee now derive their shares through different titles although their occupation remains common. Coke distinguishes acquisition by purchase, descent, or prescription. “Purchase” in this historical vocabulary is not confined to paying money.
+**Several titles, common occupation.** Littleton's example has one joint tenant convey his interest to a third party. The remaining tenant and the alienee now derive their shares through different titles although their occupation remains common. Acquisition may occur by purchase, descent, or prescription. “Purchase” in this historical vocabulary is not confined to paying money.
 
 **Reason from the transition.** Describe the before-state, conveyance, persons affected, and after-state. This explains a classification more reliably than matching appearances to a label. The same pattern helps diagnose a modern argument, but the historical consequence cannot be carried over without applicable law.
 
@@ -38,7 +38,7 @@ This is a selective methodological distillation of the thirteen chapters of Book
 
 ### 5. Of Estates upon Condition — §325 onward; Co. Litt. 201a–b
 
-**Condition in deed / condition in law.** Coke distinguishes conditions expressed by the parties in legally operative terms from conditions supplied by law without those words. Identify the source of the condition before treating a missing clause as decisive.
+**Condition in deed / condition in law.** Conditions expressed by the parties in legally operative terms differ from conditions supplied by law without those words. Identify the source of the condition before treating a missing clause as decisive.
 
 **Condition precedent / condition subsequent.** A condition may precede the legal effect or qualify an already existing estate. The second structure does not imply that the estate never existed. Ask whether the consequence concerns creation, enlargement, or defeat of an interest, and when it occurs.
 
@@ -52,7 +52,7 @@ This is a selective methodological distillation of the thirteen chapters of Book
 
 **Right to enter / remedy by action.** In Littleton's example, a disseisor dies seised and the land descends to the heir. The disseisee's entry is taken away, leaving a writ of entry to recover the land. The loss of one method of recovery is not the extinction of every legally recognized claim.
 
-**Act of law / party's act.** Coke emphasizes the heir's acquisition by descent rather than personal taking. Whether a change occurred by operation of law or by a person's act may affect available responses. Do not reduce the sequence to “A has possession, therefore A owns free of B.”
+**Act of law / party's act.** The heir acquires by descent rather than personal taking in this analysis. Whether a change occurred by operation of law or by a person's act may affect available responses. Do not reduce the sequence to “A has possession, therefore A owns free of B.”
 
 **Title / possession / remedy.** State all three. The same person may lack possession, retain a claim to recover, and be barred from immediate entry. That separation prevents an advisor from answering an ownership question solely with a procedural fact.
 
@@ -72,7 +72,7 @@ This is a selective methodological distillation of the thirteen chapters of Book
 
 **Words plus recipient's existing position.** At §465, a release by a reversioner can enlarge a tenant's estate; its scope depends on the recipient's possession, the releasor's interest, and the legally effective words. Repeating the same clause in a different relationship may produce a different result. Analyze operative effect rather than treating “release” as a fixed consequence.
 
-**Use and trust, Co. Litt. 272b.** Coke describes the use as confidence associated with the estate and its holder, with the beneficiary's remedy in Chancery rather than at common law. Hohfeld begins his article by revisiting this description. Preserve the forum-specific statement: absence of a common-law remedy does not establish absence of an equitable relation. The source encounter here is a real tension, not a consensus that “use” has one timeless analytical meaning.
+**Use and trust, Co. Litt. 272b.** The use is confidence associated with the estate and its holder, with the beneficiary's remedy in Chancery rather than at common law in this historical account. Hohfeld begins his article by revisiting this description. Preserve the forum-specific statement: absence of a common-law remedy does not establish absence of an equitable relation. The source encounter here is a real tension, not a consensus that “use” has one timeless analytical meaning.
 
 **Later commentary.** The editor's note at the opening explains releases against degrees of title and possession. It is useful context, explicitly later, not interchangeable with Coke's own text. This reference does not attempt an exhaustive modern doctrine of releases, uses, or trusts.
 
@@ -88,7 +88,7 @@ This is a selective methodological distillation of the thirteen chapters of Book
 
 **Third-party assent.** Littleton's model of a grant of services requires attornment by the tenant during the grantor's life; words of agreement or a token payment may supply it. A transaction involving grantor and grantee may thus depend on a third person's legally significant act.
 
-**Relational rationale.** Coke links the requirement to the danger of subjecting a tenant to an enemy as lord. The rationale explains the historical mechanism but does not let an advisor deduce a contemporary veto over every assignment. Separate the original institution, the condition it imposed, and later changes to the law.
+**Relational rationale.** The requirement addresses the danger of subjecting a tenant to an enemy as lord. The rationale explains the historical mechanism but does not let an advisor deduce a contemporary veto over every assignment. Separate the original institution, the condition it imposed, and later changes to the law.
 
 ### 11. Of Discontinuance — §592 onward; Co. Litt. 325a
 

@@ -6,7 +6,7 @@
 
 A supported argument can lose its justification when new information enables a successful counterargument. Its conclusion may nevertheless survive through another argument. Represent the premises, rules, subarguments, conflicts, and priorities separately; reassess the resulting argument system whenever an input changes.
 
-Prakken supplies formal theories of nonmonotonic reasoning and inconsistency handling, not a rule that the newest or most detailed assertion wins. The book distinguishes local defeat from global justification, and the status of arguments from the status of their conclusions. Its logical, dialectical, procedural, and strategic layers must also be kept separate.
+Formal theories of nonmonotonic reasoning and inconsistency handling do not imply that the newest or most detailed assertion wins. Local defeat differs from global justification, and an argument’s status differs from the status of its conclusion. Its logical, dialectical, procedural, and strategic layers must also be kept separate.
 
 The operational procedure below is an **informal advisor adaptation**, not an implementation of the book's logic or a later framework such as ASPIC+. The supplied OCR has severely damaged formulas and tables. The reference preserves prose-confirmed definitions and examples but does not claim verified theorem transcription, executable completeness, or a mathematical proof certificate for natural-language advice.
 
@@ -20,9 +20,9 @@ The book investigates what logic can contribute to AI and legal reasoning. A log
 
 ### 2. The Role of Logic in Legal Reasoning — pp. 17–32
 
-Prakken rejects the ideas that formalizing means completely defining a legal concept, that formalization leaves no room for interpretation, or that logic is confined to deduction. He also rejects naive deductivism: a valid inference does not establish the truth or acceptability of its premises.
+Formalizing need not completely define a legal concept or exclude interpretation; logic is not confined to deduction. Naive deductivism also fails: a valid inference does not establish the truth or acceptability of its premises.
 
-**Rule-based and case-based reasoning:** a logical representation can clarify the relation between a proposed premise and conclusion while leaving premise discovery and justification to other methods. Prakken treats analogy as potentially a heuristic for suggesting premises, rather than necessarily a distinctive inference rule. This differs from treatments in Walton and MacCormick; the advisor preserves the difference rather than attributing one unified theory to them.
+**Rule-based and case-based reasoning:** a logical representation can clarify the relation between a proposed premise and conclusion while leaving premise discovery and justification to other methods. Analogy may be a heuristic for suggesting premises rather than necessarily a distinctive inference rule in this account. This differs from treatments in Walton and MacCormick; the advisor preserves the difference rather than attributing one unified theory to them.
 
 ### 3. The Need for New Logical Tools — pp. 33–66
 
@@ -84,7 +84,7 @@ A proposition with no argument is not automatically in the overruled class. “O
 
 The treatment extends priority-based conflict handling and examines skeptical/credulous reasoning, floating conclusions, and accrual. The choice of consequence notion changes what can be said to follow.
 
-**Floating conclusions, §7.5.3, pp. 196–197:** suppose an unresolved conflict supports P on one side and not-P on the other. Each side, through a different defeasible route, also supports Q. Under the earlier argument-centered notion, Q need not have a justified argument. Under an extension-based notion, Q can occur in all admissible alternatives through different arguments. Prakken treats these as different notions of support, not a question settled by declaring one meaning universally correct.
+**Floating conclusions, §7.5.3, pp. 196–197:** suppose an unresolved conflict supports P on one side and not-P on the other. Each side, through a different defeasible route, also supports Q. Under the earlier argument-centered notion, Q need not have a justified argument. Under an extension-based notion, Q can occur in all admissible alternatives through different arguments. These are different notions of support; declaring one meaning universally correct does not settle the question.
 
 **Advisor consequence:** distinguish a genuinely independent surviving argument for Q from a conclusion shared only across alternative resolutions. In the second situation, state the alternative branches and the assumption that they exhaust the relevant possibilities. Do not silently certify one branch, or silently change semantics to retain a favored conclusion.
 

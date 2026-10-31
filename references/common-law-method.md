@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-Coke asks what legal authority supports an act, how the relevant text and established practice fit together, and what legal route can give the claimant relief. Legal reason is cultivated through study, comparison, professional deliberation, and accurate records. This method includes statutory construction and explicit reasoning from principles; it cannot be reduced to collecting fact matches or opposing definitions.
+An act needs supporting legal authority; the relevant text and established practice must fit together, and relief requires an available legal route. Legal reason is cultivated through study, comparison, professional deliberation, and accurate records. This method includes statutory construction and explicit reasoning from principles; it cannot be reduced to collecting fact matches or opposing definitions.
 
 This module distills selected methodological passages across the Reports. Thirteen is the number of report Parts represented in the volume, not a claim that every report has been analyzed. Page citations below refer to Sheppard's printed Volume One pagination. Its contents list covers the larger three-volume collection, but the supplied PDF ends with Volume One's Reports; the later treatises, Institutes selections, and parliamentary speeches are not present. “Ed.” introductions, translations, chronology, and annotations are Sheppard's editorial apparatus, distinct from Coke's report text. The separate [Coke on Littleton reference](reference-coke-institutes.md) treats the supplied Institutes volume.
 
@@ -14,7 +14,7 @@ This module distills selected methodological passages across the Reports. Thirte
 
 **Reliable report / wandering report.** A retelling can scramble the state of the question, detach a rule from its reasons, or attribute an opinion to judges who did not express it. Preserve the issue, posture, reasons, and disposition before compressing a case. A clear rule based on an unreliable report is not a useful achievement.
 
-**Reading, hearing, conference, meditation, recordation, orderly observation.** Coke treats legal learning as a connected practice: reading and hearing require reflection and discussion, and accumulated observation must be recorded in order. The transferable method is active comparison and revision, not passive quotation. A disagreement or counterexample is a reason to return to the material and improve the account.
+**Reading, hearing, conference, meditation, recordation, orderly observation.** Legal learning is a connected practice: reading and hearing require reflection and discussion, and accumulated observation must be recorded in order. The transferable method is active comparison and revision, not passive quotation. A disagreement or counterexample is a reason to return to the material and improve the account.
 
 **Authority is inspectable.** Reporting makes a decision available for later assessment; it does not make every sentence conclusive. Compare with Duxbury's account of revisable precedent and the function of ratio. The synthesis is a reusable record whose scope and uncertainties remain visible.
 
@@ -70,9 +70,9 @@ This module distills selected methodological passages across the Reports. Thirte
 
 ### Whole-text interpretation, actor, and remedy — Part Eight, Dr. Bonham's Case, pp. 264–283
 
-**Separate grants of authority.** Bonham's false-imprisonment action requires examining the College's asserted power, not merely establishing that unlicensed practice was prohibited. Coke distinguishes a clause concerning unlicensed practice and its specified penalty from a clause concerning deficient medical practice and its sanctions. The beneficiary, act, period, penalty, and decision-maker are not interchangeable across clauses.
+**Separate grants of authority.** Bonham's false-imprisonment action requires examining the College's asserted power, not merely establishing that unlicensed practice was prohibited. The clause concerning unlicensed practice and its specified penalty differs from the clause concerning deficient medical practice and its sanctions. The beneficiary, act, period, penalty, and decision-maker are not interchangeable across clauses.
 
-**The statute as its own interpreter.** At p. 274, Coke reads the parts together and derives reasons from the letters patent and confirming Act. This is an explicit counterexample to the old advisor's suggestion that a legal category is legitimate only when prior cases have already placed comparable facts inside it. Textual structure can establish a legally operative distinction.
+**The statute as its own interpreter.** At p. 274, the parts are read together and the reasons derive from the letters patent and confirming Act. This is an explicit counterexample to the old advisor's suggestion that a legal category is legitimate only when prior cases have already placed comparable facts inside it. Textual structure can establish a legally operative distinction.
 
 **Judge, minister, and interested party.** At pp. 275–276, the report questions the combination of adjudication, execution, and a financial stake in the penalty. Identify the particular actor and function before describing the problem merely as unfairness. A prohibition on the conduct and a power to impose a remedy require different premises.
 
@@ -84,7 +84,7 @@ This module distills selected methodological passages across the Reports. Thirte
 
 **Sutton's Hospital, pp. 347–378.** Coke discusses the corporation as a body existing in legal consideration and investigates the constitution and effects of the incorporation. The absence of a natural body does not make the legal relations unreal. This connects with Hohfeld's warning against confusing physical and legal quantities. Retained here as a methodological comparison, not as an exhaustive incorporation test.
 
-**Case of the Isle of Ely, pp. 378–384.** A commission concerning sewers does not automatically authorize a newly proposed river. Coke examines the wording of the commission, omissions relative to earlier enactments, the enduring grant of authority, and a separate procedure for investigating harm and obtaining permission. Utility and legal competence must both be addressed.
+**Case of the Isle of Ely, pp. 378–384.** A commission concerning sewers does not automatically authorize a newly proposed river. The relevant considerations include the wording of the commission, omissions relative to earlier enactments, the enduring grant of authority, and a separate procedure for investigating harm and obtaining permission. Utility and legal competence must both be addressed.
 
 **Repair / novel undertaking.** A desirable project can exceed a grant aimed at repairing existing works. Describe the act at the level where the statutory distinction operates; “water management” is too broad if it erases a limitation between repair and new construction. This does not establish a modern rule forbidding innovation: it exposes the missing authority for the particular act.
 
@@ -98,7 +98,7 @@ This module distills selected methodological passages across the Reports. Thirte
 
 ### Novelty, deliberation, and prerogative — Part Twelve, Proclamations, pp. 486–489
 
-**Existing offence / creation of offence.** Coke distinguishes warning against already unlawful conduct from making previously lawful conduct criminal by proclamation. Identify whether the act announces, administers, or changes law. A practical need to address a grievance does not itself supply lawmaking power.
+**Existing offence / creation of offence.** Warning against already unlawful conduct differs from making previously lawful conduct criminal by proclamation. Identify whether the act announces, administers, or changes law. A practical need to address a grievance does not itself supply lawmaking power.
 
 **Established bounds of prerogative.** The report tests authority against law, statute, custom, and established forms of indictments. The inquiry is not simply whether an earlier proclamation exists: prior instances must themselves be examined for legal support.
 
@@ -125,7 +125,7 @@ Reconstruct Bonham's central power question from pp. 264–276. The College argu
 
 ## Key Takeaways
 
-1. Coke supplies a demanding practice of legal justification, not a ban on rules or definitions.
+1. Legal justification requires disciplined practice; rules and definitions remain part of it.
 2. Conduct, actor, competence, process, and remedy must fit the relevant authority.
 3. Accurate reporting enables comparison while leaving later interpretation possible.
 4. Historical examples illustrate method; they do not determine current law by themselves.
